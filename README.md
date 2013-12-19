@@ -1,5 +1,1 @@
-Finnis winter olympic medals
-
-## Author
-
-Niko Kiuru, @kemton @IRCnet
+# Finnish winter olympic medals
