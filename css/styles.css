@@ -2,3 +2,18 @@
 #esi-vis {
   display: block;
 }
+/* Map styles */
+#esi-vis .map {
+  border: 1px solid #bebebf;
+  font-family: arial;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#esi-vis.wide .map {
+  height: 580px;
+}
+#esi-vis .map img {
+  max-width: none;
+}
