@@ -1,5 +1,6 @@
 var polygons = [];
 var tooltip = $('#esi-vis .tooltip');
+var rawData = [];
 /* This array describes the data fetched from Fusion Tables */
 var data_desc = {
   'total': {
@@ -49,6 +50,12 @@ var yleApp = {
     }
   },
   init: function() {
+    yleApp.initMap();
+    for (var i in rawData) {
+      console.log(rawData[i]["kilpailu"]);
+    }
+  },
+  initMap: function() {
     var myOptions = {
       zoom: 5,
       panControl: false,
@@ -107,15 +114,8 @@ var yleApp = {
     var rows = data['rows'];
     for (var i in rows) {
       var newCoordinates = [];
-      var geometries = rows[i][5]['geometries'];;
-      if (geometries) {
-        for (var j in geometries) {
-          newCoordinates.push(yleApp.constructNewCoordinates(geometries[j]));
-        }
-      } 
-      else {
-        newCoordinates = yleApp.constructNewCoordinates(rows[i][5]['geometry']);
-      }
+      newCoordinates = yleApp.constructNewCoordinates(rows[i][5]['geometry']);
+
       var polygon = new google.maps.Polygon({
         paths: newCoordinates,
         fillColor: yleApp.getFillColor(rows[i]),
@@ -182,16 +182,10 @@ var yleApp = {
       polygon.setMap(map);
 
       google.maps.event.addListener(polygon, 'click', function(e) {
-        $('#esi-vis .area').hide();
-        $('#esi-vis .' + this.data[0]).fadeIn(500);
+        //$('#esi-vis .area').hide();
+        //$('#esi-vis .' + this.data[0]).fadeIn(500);
         $('#esi-vis .area_title').text(data_desc[this.data[0]].name);
         $('#esi-vis .area_desc').html(data_desc[this.data[0]].desc);
-
-        /*
-        tooltip.html('<strong>' + this.data[0] + '</strong><p>value</p>');
-        tooltip.show();
-        tooltip.fixPos();
-        */
       });
     }
   },
@@ -220,5 +214,11 @@ $(document).ready(function() {
   $(window).resize(function () {
     yleApp.getScale();
   });
-  yleApp.init();
+  $.getJSON("case-2013/Olympiamitalistit/data/yksilourheilijat.json", function(data){
+      rawData = data;
+      yleApp.init();
+      /*for (var i in data) {
+        console.log(data[i]["urheilijat"]);
+      }*/
+    });
 });
