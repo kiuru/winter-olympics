@@ -84,10 +84,8 @@ var yleApp = {
 
     var body = document.getElementsByTagName('body')[0];
     body.appendChild(script);
-    if ($('html').hasClass('ie6') || $('html').hasClass('ie7') || $('html').hasClass('ie8')) {
-      var styles = [];
-    }
-    else {
+
+    if (!$('html').hasClass('ie6') || !$('html').hasClass('ie7') || !$('html').hasClass('ie8')) {
       var styles = [
         {
           "featureType": "water",
@@ -107,6 +105,7 @@ var yleApp = {
       map.mapTypes.set('map-style', styledMap);
       map.setMapTypeId('map-style');
     }
+
   },
   drawMap: function(data) {
     console.log(data);
@@ -200,7 +199,7 @@ var yleApp = {
   getFillColor: function(row) {
     var color = '#ff0000';
     var selected_type = ($('#esi-vis input[name=type_selector]:checked').val());
-    $.each(data_desc['total'].buckets, function(idx, bucket) {
+    $.each(data_desc['total'].buckets, function(i, bucket) {
       if (row[1] >= bucket.min && row[1] < bucket.max) {
         color = bucket.color;
       }
