@@ -51,9 +51,9 @@ var yleApp = {
   },
   init: function() {
     yleApp.initMap();
-    for (var i in rawData) {
-      console.log(rawData[i]["kilpailu"]);
-    }
+    //for (var i in rawData) {
+      //console.log(rawData[i]["kilpailu"]);
+    //}
   },
   initMap: function() {
     var myOptions = {
@@ -74,11 +74,9 @@ var yleApp = {
     // Initialize JSONP request
     var script = document.createElement('script');
     var url = ['https://www.googleapis.com/fusiontables/v1/query?'];
-    var table_id = '1-Au1DSBdyxdz1eQdWowuqfGMx_JfQcZBg1e_w_o'; // Google FusionTable key.
-    var encodedQuery = encodeURIComponent('SELECT * FROM ' + table_id);
     url.push('sql=');
-    url.push(encodedQuery);
-    url.push('&callback=yleApp.drawMap');
+    url.push(encodeURIComponent('SELECT * FROM ' + '12LyXGm-SXYdNuLbL-ncWbyq3JGsohOok49g14XA')); // Google FusionTable key.
+    url.push('&callback=yleApp.drawNewMap');
     url.push('&key=AIzaSyBABXn6XMMXCIlQfP-6qBwoRPxjJynZZ7A'); // Google Api Key.
     script.src = url.join('');
 
@@ -107,13 +105,13 @@ var yleApp = {
     }
 
   },
-  drawMap: function(data) {
+  drawNewMap: function(data) {
     console.log(data);
     map_data = data;
     var rows = data['rows'];
     for (var i in rows) {
       var newCoordinates = [];
-      newCoordinates = yleApp.constructNewCoordinates(rows[i][5]['geometry']);
+      newCoordinates = yleApp.constructNewCoordinates(rows[i][9]['geometry']);
 
       var polygon = new google.maps.Polygon({
         paths: newCoordinates,
@@ -161,9 +159,9 @@ var yleApp = {
           strokeOpacity: 1,
           strokeWeight: 3
         });
-        tooltip.html('<strong>' + data_desc[this.data[0]].name + '</strong><br />Valitsemalla näet<br />alueen hankkeita');
+        /*tooltip.html('<strong>' + data_desc[this.data[0]].name + '</strong><br />Valitsemalla näet<br />alueen hankkeita');
         tooltip.show();
-        tooltip.fixPos();
+        tooltip.fixPos();*/
       });
 
       google.maps.event.addListener(polygon, 'mouseout', function() {
@@ -171,20 +169,18 @@ var yleApp = {
           strokeOpacity: 0.7,
           strokeWeight: 1
         });
-        tooltip.hide();
+        //tooltip.hide();
       });
       
       google.maps.event.addListener(polygon, 'mousemove', function(e,e2) {
-        tooltip.fixPos();
+        //tooltip.fixPos();
       }); 
 
       polygon.setMap(map);
 
       google.maps.event.addListener(polygon, 'click', function(e) {
-        //$('#esi-vis .area').hide();
-        //$('#esi-vis .' + this.data[0]).fadeIn(500);
-        $('#esi-vis .area_title').text(data_desc[this.data[0]].name);
-        $('#esi-vis .area_desc').html(data_desc[this.data[0]].desc);
+        //$('#esi-vis .area_title').text(data_desc[this.data[0]].name);
+        //$('#esi-vis .area_desc').html(data_desc[this.data[0]].desc);
       });
     }
   },
@@ -205,7 +201,7 @@ var yleApp = {
       }
     });
     return color;
-  },
+  }
 }
 
 $(document).ready(function() {
