@@ -159,9 +159,9 @@ var yleApp = {
           strokeOpacity: 1,
           strokeWeight: 3
         });
-        /*tooltip.html('<strong>' + data_desc[this.data[0]].name + '</strong><br />Valitsemalla näet<br />alueen hankkeita');
+        tooltip.html('<strong>' + this.data[3] + '</strong>');
         tooltip.show();
-        tooltip.fixPos();*/
+        tooltip.fixPos();
       });
 
       google.maps.event.addListener(polygon, 'mouseout', function() {
@@ -169,11 +169,11 @@ var yleApp = {
           strokeOpacity: 0.7,
           strokeWeight: 1
         });
-        //tooltip.hide();
+        tooltip.hide();
       });
       
       google.maps.event.addListener(polygon, 'mousemove', function(e,e2) {
-        //tooltip.fixPos();
+        tooltip.fixPos();
       }); 
 
       polygon.setMap(map);
