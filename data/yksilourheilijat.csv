@@ -1,0 +1,240 @@
+kisapaikka;vuosi;mitali;laji;kilpailu;urheilija;kotikunta;maakunta;alkupkunta
+CHAMONIX;1924;Kultaa;Pikaluistelu;1500 m pikaluistelu;Clas Thunberg;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Pronssia;Maastohiihto;18 km hiihto;Tapani Niku;Haapavesi;Pohjois-Pohjanmaa;NULL
+CHAMONIX;1924;Hopeaa;Pariluistelu;Pariluistelu;Ludovika Jakobsson;Potsdam;Ulkomaat;NULL
+CHAMONIX;1924;Hopeaa;Pariluistelu;Pariluistelu;Walter Jakobsson;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Kultaa;Pikaluistelu;5000 m pikaluistelu;Clas Thunberg;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Kultaa;Pikaluistelu;10 000 m pikaluistelu;Julius Skutnabb;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Kultaa;Pikaluistelu;Pikaluistelun yhteispisteet;Clas Thunberg;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Hopeaa;Pikaluistelu;5000 m pikaluistelu;Julius Skutnabb;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Hopeaa;Pikaluistelu;10 000 m pikaluistelu;Clas Thunberg;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Pronssia;Pikaluistelu;500 m pikaluistelu;Clas Thunberg;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Pronssia;Pikaluistelu;Pikaluistelun yhteispisteet;Julius Skutnabb;Helsinki;Uusimaa;NULL
+CHAMONIX;1924;Hopeaa;Sotilaspartiohiihto;Sotilaspartiohiihto;Väinö Bremer;Turku;Varsinais-Suomi;NULL
+CHAMONIX;1924;Hopeaa;Sotilaspartiohiihto;Sotilaspartiohiihto;August Eskelinen;Iisalmi;Pohjois-Savo;NULL
+CHAMONIX;1924;Hopeaa;Sotilaspartiohiihto;Sotilaspartiohiihto;Heikki Hirvonen;Rääkkylä;Pohjois-Karjala;NULL
+CHAMONIX;1924;Hopeaa;Sotilaspartiohiihto;Sotilaspartiohiihto;Ville Mattila;Haapavesi;Pohjois-Pohjanmaa;NULL
+SANKT MORITZ;1928;Kultaa;Pikaluistelu;500 m pikaluistelu;Clas Thunberg;Helsinki;Uusimaa;NULL
+SANKT MORITZ;1928;Kultaa;Pikaluistelu;1500 m pikaluistelu;Clas Thunberg;Helsinki;Uusimaa;NULL
+SANKT MORITZ;1928;Hopeaa;Pikaluistelu;5000 m pikaluistelu;Julius Skutnabb;Helsinki;Uusimaa;NULL
+SANKT MORITZ;1928;Pronssia;Pikaluistelu;500 m pikaluistelu;Jaakko Friman;Tampere;Pirkanmaa;NULL
+LAKE PLACID;1932;Kultaa;Maastohiihto;50 km hiihto;Veli Saarinen;Virolahti;Kymenlaakso;NULL
+LAKE PLACID;1932;Hopeaa;Maastohiihto;50 km hiihto;Väinö Liikkanen;Virolahti;Kymenlaakso;NULL
+LAKE PLACID;1932;Pronssia;Maastohiihto;18 km hiihto;Veli Saarinen;Virolahti;Kymenlaakso;NULL
+GARMISCH-PARTENKIRCHEN;1936;Kultaa;Maastohiihto;4 x 10 km viestihiihto;Sulo Nurmela;Miehikkälä;Kymenlaakso;NULL
+GARMISCH-PARTENKIRCHEN;1936;Kultaa;Maastohiihto;4 x 10 km viestihiihto;Klaus Karppinen;Iisalmi;Pohjois-Savo;NULL
+GARMISCH-PARTENKIRCHEN;1936;Kultaa;Maastohiihto;4 x 10 km viestihiihto;Matti Lähde;Lappeenranta;Etelä-Karjala;Joutseno
+GARMISCH-PARTENKIRCHEN;1936;Kultaa;Maastohiihto;4 x 10 km viestihiihto;Kalle Jalkanen;Suonenjoki;Pohjois-Savo;NULL
+GARMISCH-PARTENKIRCHEN;1936;Pronssia;Maastohiihto;18 km hiihto;Pekka Niemi;Keminmaa;Lappi;NULL
+GARMISCH-PARTENKIRCHEN;1936;Hopeaa;Pikaluistelu;5000 m pikaluistelu;Birger Wasenius;Helsinki;Uusimaa;NULL
+GARMISCH-PARTENKIRCHEN;1936;Hopeaa;Pikaluistelu;10 000 m pikaluistelu;Birger Wasenius;Helsinki;Uusimaa;NULL
+GARMISCH-PARTENKIRCHEN;1936;Pronssia;Pikaluistelu;1500 m pikaluistelu;Birger Wasenius;Helsinki;Uusimaa;NULL
+GARMISCH-PARTENKIRCHEN;1936;Pronssia;Pikaluistelu;5000 m pikaluistelu;Antero Ojala;Terijoki;Ulkomaat;NULL
+SANKT MORITZ;1948;Hopeaa;Maastohiihto;4 x 10 km viestihiihto;Lauri Silvennoinen;Kitee;Pohjois-Karjala;Kesälahti
+SANKT MORITZ;1948;Hopeaa;Maastohiihto;4 x 10 km viestihiihto;Teuvo Laukkanen;Pielavesi;Pohjois-Savo;NULL
+SANKT MORITZ;1948;Hopeaa;Maastohiihto;4 x 10 km viestihiihto;Sauli Rytky;Haapavesi;Pohjois-Pohjanmaa;NULL
+SANKT MORITZ;1948;Hopeaa;Maastohiihto;4 x 10 km viestihiihto;August Kiuru;Sakkola;Ulkomaat;NULL
+SANKT MORITZ;1948;Pronssia;Maastohiihto;50 km hiihto;Benjam Vanninen;Sortavala;Ulkomaat;NULL
+SANKT MORITZ;1948;Hopeaa;Pikaluistelu;10 000 m pikaluistelu;Lassi Parkkinen;Varkaus;Pohjois-Savo;NULL
+SANKT MORITZ;1948;Pronssia;Pikaluistelu;10 000 m pikaluistelu;Pentti Lammio;Tampere;Pirkanmaa;NULL
+SANKT MORITZ;1948;Kultaa;Yhdistetty;Yhdistetty hiihto;Heikki Hasu;Kouvola;Kymenlaakso;Sippola
+SANKT MORITZ;1948;Hopeaa;Yhdistetty;Yhdistetty hiihto;Martti Huhtala;Rovaniemi;Lappi;NULL
+OSLO;1952;Kultaa;Maastohiihto;50 km hiihto, miehet;Veikko Hakulinen;Kurkijoki;Ulkomaat;NULL
+OSLO;1952;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Heikki Hasu;Kouvola;Kymenlaakso;Sippola
+OSLO;1952;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Paavo Lonkila;Kiuruvesi;Pohjois-Savo;NULL
+OSLO;1952;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Urpo Korhonen;Rautalampi;Pohjois-Savo;NULL
+OSLO;1952;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Tapio Mäkelä;Nastola;Päijät-Häme;NULL
+OSLO;1952;Kultaa;Maastohiihto;10 km hiihto, naiset;Lydia Wideman;Mänttä-Vilppula;Pirkanmaa;NULL
+OSLO;1952;Hopeaa;Maastohiihto;18 km hiihto, miehet;Tapio Mäkelä;Nastola;Päijät-Häme;NULL
+OSLO;1952;Hopeaa;Maastohiihto;50 km hiihto, miehet;Eero Kolehmainen;Mikkeli;Etelä-Savo;Anttola
+OSLO;1952;Hopeaa;Maastohiihto;10 km hiihto, naiset;Mirja Hietamies;Lemi;Etelä-Karjala;NULL
+OSLO;1952;Pronssia;Maastohiihto;18 km hiihto, miehet;Paavo Lonkila;Kiuruvesi;Pohjois-Savo;NULL
+OSLO;1952;Pronssia;Maastohiihto;10 km hiihto, naiset;Siiri Rantanen;Tohmajärvi;Pohjois-Karjala;NULL
+OSLO;1952;Hopeaa;Yhdistetty;Yhdistetty hiihto;Heikki Hasu;Kouvola;Kymenlaakso;Sippola
+CORTINA D'AMPEZZO;1956;Kultaa;Maastohiihto;30 km hiihto, miehet;Veikko Hakulinen;Kurkijoki;Ulkomaat;NULL
+CORTINA D'AMPEZZO;1956;Kultaa;Maastohiihto;3 x 5 km viestihiihto, naiset;Sirkka Polkunen;Jyväskylä;Keski-Suomi;NULL
+CORTINA D'AMPEZZO;1956;Kultaa;Maastohiihto;3 x 5 km viestihiihto, naiset;Mirja Hietamies;Lemi;Etelä-Karjala;NULL
+CORTINA D'AMPEZZO;1956;Kultaa;Maastohiihto;3 x 5 km viestihiihto, naiset;Siiri Rantanen;Tohmajärvi;Pohjois-Karjala;NULL
+CORTINA D'AMPEZZO;1956;Hopeaa;Maastohiihto;50 km hiihto, miehet;Veikko Hakulinen;Kurkijoki;Ulkomaat;NULL
+CORTINA D'AMPEZZO;1956;Hopeaa;Maastohiihto;4 x 10 km viestihiihto, miehet;August Kiuru;Sakkola;Ulkomaat;NULL
+CORTINA D'AMPEZZO;1956;Hopeaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Jorma Kortelainen;Joensuu;Pohjois-Karjala;Pyhäselkä
+CORTINA D'AMPEZZO;1956;Hopeaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Arvo Viitanen;Uurainen;Keski-Suomi;NULL
+CORTINA D'AMPEZZO;1956;Hopeaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Veikko Hakulinen;Kurkijoki;Ulkomaat;NULL
+CORTINA D'AMPEZZO;1956;Kultaa;Mäkihyppy;Mäkihyppy;Antti Hyvärinen;Rovaniemi;Lappi;NULL
+CORTINA D'AMPEZZO;1956;Hopeaa;Mäkihyppy;Mäkihyppy;Aulis Kallakorpi;Kouvola;Kymenlaakso;Kuusankoski
+CORTINA D'AMPEZZO;1956;Pronssia;Pikaluistelu;1500 m pikaluistelu;Toivo Salonen;Pälkäne;Pohjois-Savo;NULL
+SQUAW VALLEY;1960;Hopeaa;Ampumahiihto;20 km ampumahiihto;Antti Tyrväinen;Ylöjärvi;Pirkanmaa;NULL
+SQUAW VALLEY;1960;Kultaa;Maastohiihto;50 km hiihto, miehet;Kalevi Hämäläinen;Juva;Etelä-Savo;NULL
+SQUAW VALLEY;1960;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Toimi Alatalo;Savitaipale;Etelä-Karjala;NULL
+SQUAW VALLEY;1960;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Eero Mäntyranta;Pello;Lappi;Turtola
+SQUAW VALLEY;1960;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Väinö Huhtala;Siikajoki;Pohjois-Pohjanmaa;NULL
+SQUAW VALLEY;1960;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Veikko Hakulinen;Kurkijoki;Ulkomaat;NULL
+SQUAW VALLEY;1960;Hopeaa;Maastohiihto;50 km hiihto, miehet;Veikko Hakulinen;Kurkijoki;Ulkomaat;NULL
+SQUAW VALLEY;1960;Pronssia;Maastohiihto;15 km hiihto, miehet;Veikko Hakulinen;Kurkijoki;Ulkomaat;NULL
+SQUAW VALLEY;1960;Pronssia;Maastohiihto;3 x 5 km viestihiihto, naiset;Siiri Rantanen;Tohmajärvi;Pohjois-Karjala;NULL
+SQUAW VALLEY;1960;Pronssia;Maastohiihto;3 x 5 km viestihiihto, naiset;Eeva Ruoppa;Miehikkälä;Kymenlaakso;NULL
+SQUAW VALLEY;1960;Pronssia;Maastohiihto;3 x 5 km viestihiihto, naiset;Toini Pöysti;Pori;Satakunta;Ahlainen
+SQUAW VALLEY;1960;Hopeaa;Mäkihyppy;Mäkihyppy;Niilo Halonen;Kouvola;Kymenlaakso;NULL
+SQUAW VALLEY;1960;Pronssia;Pikaluistelu;3000 m pikaluistelu, naiset;Eevi Huttunen;Kuopio;Pohjois-Savo;Karttula
+INNSBRUCK;1964;Kultaa;Maastohiihto;15 km hiihto, miehet;Eero Mäntyranta;Pello;Lappi;Turtola
+INNSBRUCK;1964;Kultaa;Maastohiihto;30 km hiihto, miehet;Eero Mäntyranta;Pello;Lappi;Turtola
+INNSBRUCK;1964;Hopeaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Väinö Huhtala;Siikajoki;Pohjois-Pohjanmaa;Revonlahti
+INNSBRUCK;1964;Hopeaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Arto Tiainen;Savonlinna;Etelä-Savo;Sääminki
+INNSBRUCK;1964;Hopeaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Kalevi Laurila;Valkeakoski;Pirkanmaa;Sääksämäki
+INNSBRUCK;1964;Hopeaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Eero Mäntyranta;Pello;Lappi;Turtola
+INNSBRUCK;1964;Hopeaa;Maastohiihto;5 km hiihto, naiset;Mirja Lehtonen;Uurainen;Keski-Suomi;NULL
+INNSBRUCK;1964;Pronssia;Maastohiihto;50 km hiihto, miehet;Arto Tiainen;Savonlinna;Etelä-Savo;Sääminki
+INNSBRUCK;1964;Pronssia;Maastohiihto;3 x 5 km viestihiihto, naiset;Senja Pusula;Pieksämäki;Pohjois-Savo;NULL
+INNSBRUCK;1964;Pronssia;Maastohiihto;3 x 5 km viestihiihto, naiset;Toini Pöysti;Pori;Satakunta;Ahlainen
+INNSBRUCK;1964;Pronssia;Maastohiihto;3 x 5 km viestihiihto, naiset;Mirja Lehtonen;Uurainen;Keski-Suomi;NULL
+INNSBRUCK;1964;Kultaa;Mäkihyppy;Normaalimäki;Veikko Kankkonen;Sotkamo;Kainuu;NULL
+INNSBRUCK;1964;Hopeaa;Mäkihyppy;Suurmäki;Veikko Kankkonen;Sotkamo;Kainuu;NULL
+INNSBRUCK;1964;Hopeaa;Pikaluistelu;1500 m pikaluistelu, naiset;Kaija Mustonen;Helsinki;Uusimaa;NULL
+INNSBRUCK;1964;Pronssia;Pikaluistelu;1000 m pikaluistelu, naiset;Kaija Mustonen;Helsinki;Uusimaa;NULL
+GRENOBLE;1968;Hopeaa;Maastohiihto;15 km hiihto, miehet;Eero Mäntyranta;Pello;Lappi;Turtola
+GRENOBLE;1968;Pronssia;Maastohiihto;30 km hiihto, miehet;Eero Mäntyranta;Pello;Lappi;Turtola
+GRENOBLE;1968;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Kalevi Oikarainen;Kuusamo;Kainuu;NULL
+GRENOBLE;1968;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Hannu Taipale;Veteli;Keski-Pohjanmaa;NULL
+GRENOBLE;1968;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Kalevi Laurila;Valkeakoski;Pirkanmaa;Sääksmäki
+GRENOBLE;1968;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Eero Mäntyranta;Pello;Lappi;Turtola
+GRENOBLE;1968;Kultaa;Pikaluistelu;1500 m pikaluistelu, naiset;Kaija Mustonen;Helsinki;Uusimaa;NULL
+GRENOBLE;1968;Hopeaa;Pikaluistelu;3000 m pikaluistelu, naiset;Kaija Mustonen;Helsinki;Uusimaa;NULL
+SAPPORO;1972;Hopeaa;Ampumahiihto;4 x 7,5 km ampumahiihtoviesti;Esko Saira;Lemi;Etelä-Karjala;NULL
+SAPPORO;1972;Hopeaa;Ampumahiihto;4 x 7,5 km ampumahiihtoviesti;Juhani Suutarinen;Parikkala;Etelä-Karjala;Uukuniemi
+SAPPORO;1972;Hopeaa;Ampumahiihto;4 x 7,5 km ampumahiihtoviesti;Heikki Ikola;Kurikka;Etelä-Pohjanmaa;Jurva
+SAPPORO;1972;Hopeaa;Ampumahiihto;4 x 7,5 km ampumahiihtoviesti;Mauri Röppänen;Outokumpu;Pohjois-Karjala;Outokumpu
+SAPPORO;1972;Hopeaa;Maastohiihto;5 km hiihto, naiset;Marjatta Kajosmaa;Hamina;Kymenlaakso;Vehkalahti
+SAPPORO;1972;Hopeaa;Maastohiihto;3 x 5 km viestihiihto, naiset;Helena Takalo;Nivala;Pohjois-Pohjanmaa;NULL
+SAPPORO;1972;Hopeaa;Maastohiihto;3 x 5 km viestihiihto, naiset;Hilkka Kuntola;Kurikka;Etelä-Pohjanmaa;Jurva
+SAPPORO;1972;Hopeaa;Maastohiihto;3 x 5 km viestihiihto, naiset;Marjatta Kajosmaa;Hamina;Kymenlaakso;Vehkalahti
+SAPPORO;1972;Pronssia;Maastohiihto;10 km hiihto, naiset;Marjatta Kajosmaa;Hamina;Kymenlaakso;Vehkalahti
+SAPPORO;1972;Hopeaa;Yhdistetty;Yhdistetty hiihto;Rauno Miettinen;Kuopio;Pohjois-Savo;NULL
+INNSBRUCK;1976;Hopeaa;Ampumahiihto;20 km ampumahiihto;Heikki Ikola;Kurikka;Etelä-Pohjanmaa;Jurva
+INNSBRUCK;1976;Hopeaa;Ampumahiihto;4 x 7,5 km ampumahiihtoviesti;Henrik Flöjt;Kajaani;Kainuu;NULL
+INNSBRUCK;1976;Hopeaa;Ampumahiihto;4 x 7,5 km ampumahiihtoviesti;Esko Saira;Lemi;Etelä-Karjala;NULL
+INNSBRUCK;1976;Hopeaa;Ampumahiihto;4 x 7,5 km ampumahiihtoviesti;Juhani Suutarinen;Parikkala;Etelä-Karjala;Uukuniemi
+INNSBRUCK;1976;Hopeaa;Ampumahiihto;4 x 7,5 km ampumahiihtoviesti;Heikki Ikola;Kurikka;Etelä-Pohjanmaa;Jurva
+INNSBRUCK;1976;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Matti Pitkänen;Ikaalinen;Pirkanmaa;NULL
+INNSBRUCK;1976;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Juha Mieto;Kurikka;Etelä-Pohjanmaa;NULL
+INNSBRUCK;1976;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Pertti Teurajärvi;Kolari;Lappi;NULL
+INNSBRUCK;1976;Kultaa;Maastohiihto;4 x 10 km viestihiihto, miehet;Arto Koivisto;Isojoki;Etelä-Pohjanmaa;NULL
+INNSBRUCK;1976;Kultaa;Maastohiihto;5 km hiihto, naiset;Helena Takalo;Nivala;Pohjois-Pohjanmaa;NULL
+INNSBRUCK;1976;Hopeaa;Maastohiihto;10 km hiihto, naiset;Helena Takalo;Nivala;Pohjois-Pohjanmaa;NULL
+INNSBRUCK;1976;Hopeaa;Maastohiihto;4 x 5 km viestihiihto, naiset;Liisa Suihkonen;Suonenjoki;Pohjois-Savo;NULL
+INNSBRUCK;1976;Hopeaa;Maastohiihto;4 x 5 km viestihiihto, naiset;Marjatta Kajosmaa;Hamina;Kymenlaakso;Vehkalahti
+INNSBRUCK;1976;Hopeaa;Maastohiihto;4 x 5 km viestihiihto, naiset;Hilkka Kuntola;Kurikka;Etelä-Pohjanmaa;Jurva
+INNSBRUCK;1976;Hopeaa;Maastohiihto;4 x 5 km viestihiihto, naiset;Helena Takalo;Nivala;Pohjois-Pohjanmaa;NULL
+INNSBRUCK;1976;Pronssia;Maastohiihto;15 km hiihto, miehet;Arto Koivisto;Isojoki;Etelä-Pohjanmaa;NULL
+LAKE PLACID;1980;Hopeaa;Maastohiihto;15 km hiihto, miehet;Juha Mieto;Kurikka;Etelä-Pohjanmaa;NULL
+LAKE PLACID;1980;Hopeaa;Maastohiihto;50 km hiihto, miehet;Juha Mieto;Kurikka;Etelä-Pohjanmaa;NULL
+LAKE PLACID;1980;Hopeaa;Maastohiihto;5 km hiihto, naiset;Hilkka Riihivuori;Kurikka;Etelä-Pohjanmaa;Jurva
+LAKE PLACID;1980;Hopeaa;Maastohiihto;10 km hiihto, naiset;Hilkka Riihivuori;Kurikka;Etelä-Pohjanmaa;Jurva
+LAKE PLACID;1980;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Harri Kirvesniemi;Mikkeli;Etelä-Savo;NULL
+LAKE PLACID;1980;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Pertti Teurajärvi;Kolari;Lappi;NULL
+LAKE PLACID;1980;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Matti Pitkänen;Ikaalinen;Pirkanmaa;NULL
+LAKE PLACID;1980;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Juha Mieto;Kurikka;Etelä-Pohjanmaa;NULL
+LAKE PLACID;1980;Pronssia;Maastohiihto;10 km hiihto, naiset;Helena Takalo;Nivala;Pohjois-Pohjanmaa;NULL
+LAKE PLACID;1980;Kultaa;Mäkihyppy;Suurmäki;Jouko Törmänen;Rovaniemi;Lappi;NULL
+LAKE PLACID;1980;Pronssia;Mäkihyppy;Suurmäki;Jari Puikkonen;Lahti;Päijät-Häme;NULL
+LAKE PLACID;1980;Hopeaa;Yhdistetty;Yhdistetty hiihto;Jouko Karjalainen;Kajaani;Kainuu;NULL
+SARAJEVO;1984;Kultaa;Maastohiihto;5 km hiihto, naiset;Marja-Liisa Hämäläinen;Parikkala;Etelä-Karjala;Simpele
+SARAJEVO;1984;Kultaa;Maastohiihto;10 km hiihto, naiset;Marja-Liisa Hämäläinen;Parikkala;Etelä-Karjala;Simpele
+SARAJEVO;1984;Kultaa;Maastohiihto;20 km hiihto, naiset;Marja-Liisa Hämäläinen;Parikkala;Etelä-Karjala;Simpele
+SARAJEVO;1984;Hopeaa;Maastohiihto;15 km hiihto, miehet;Aki Karvonen;Valtimo;Pohjois-Karjala;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;15 km hiihto, miehet;Harri Kirvesniemi;Mikkeli;Etelä-Savo;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;50 km hiihto, miehet;Aki Karvonen;Valtimo;Pohjois-Karjala;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Kari Ristanen;Tampere;Pirkanmaa;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Juha Mieto;Kurikka;Etelä-Pohjanmaa;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Harri Kirvesniemi;Mikkeli;Etelä-Savo;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Aki Karvonen;Valtimo;Pohjois-Karjala;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Pirkko Määttä;Kuusamo;Kainuu;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Eija Hyytiäinen;Saarijärvi;Keski-Suomi;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Marjo Matikainen;Lohja;Uusimaa;NULL
+SARAJEVO;1984;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Marja-Liisa Hämäläinen;Parikkala;Etelä-Karjala;Simpele
+SARAJEVO;1984;Kultaa;Mäkihyppy;Suurmäki;Matti Nykänen;Jyväskylä;Keski-Suomi;NULL
+SARAJEVO;1984;Hopeaa;Mäkihyppy;Normaalimäki;Matti Nykänen;Jyväskylä;Keski-Suomi;NULL
+SARAJEVO;1984;Pronssia;Mäkihyppy;Normaalimäki;Jari Puikkonen;Lahti;Päijät-Häme;NULL
+SARAJEVO;1984;Hopeaa;Yhdistetty;Yhdistetty hiihto;Jouko Karjalainen;Kajaani;Kainuu;NULL
+SARAJEVO;1984;Pronssia;Yhdistetty;Yhdistetty hiihto;Jukka Ylipulli;Rovaniemi;Lappi;NULL
+CALGARY;1988;Kultaa;Maastohiihto;5 km hiihto (p), naiset;Marjo Matikainen;Lohja;Uusimaa;NULL
+CALGARY;1988;Pronssia;Maastohiihto;10 km hiihto (p), naiset;Marjo Matikainen;Lohja;Uusimaa;NULL
+CALGARY;1988;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Pirkko Määttä;Kuusamo;Kainuu;NULL
+CALGARY;1988;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Marja-Liisa Kirvesniemi;Parikkala;Etelä-Karjala;Simpele
+CALGARY;1988;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Marjo Matikainen;Lohja;Uusimaa;NULL
+CALGARY;1988;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Jaana Savolainen;Lappeenranta;Etelä-Karjala;NULL
+CALGARY;1988;Kultaa;Mäkihyppy;Normaalimäki;Matti Nykänen;Jyväskylä;Keski-Suomi;NULL
+CALGARY;1988;Kultaa;Mäkihyppy;Suurmäki;Matti Nykänen;Jyväskylä;Keski-Suomi;NULL
+CALGARY;1988;Kultaa;Mäkihyppy;Joukkuemäki;Ari-Pekka Nikkola;Kuopio;Pohjois-Savo;NULL
+CALGARY;1988;Kultaa;Mäkihyppy;Joukkuemäki;Matti Nykänen;Jyväskylä;Keski-Suomi;NULL
+CALGARY;1988;Kultaa;Mäkihyppy;Joukkuemäki;Tuomo Ylipulli;Rovaniemi;Lappi;NULL
+CALGARY;1988;Kultaa;Mäkihyppy;Joukkuemäki;Jari Puikkonen;Lahti;Päijät-Häme;NULL
+ALBERTVILLE;1992;Pronssia;Ampumahiihto;10 km ampumahiihto, miehet;Harri Eloranta;Köyliö;Satakunta;NULL
+ALBERTVILLE;1992;Kultaa;Maastohiihto;5 km hiihto (p), naiset;Marjut Lukkarinen;Lohja;Uusimaa;NULL
+ALBERTVILLE;1992;Hopeaa;Maastohiihto;15 km hiihto (p), naiset;Marjut Lukkarinen;Lohja;Uusimaa;NULL
+ALBERTVILLE;1992;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Mika Kuusisto;Kurikka;Etelä-Pohjanmaa;Jurva
+ALBERTVILLE;1992;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Harri Kirvesniemi;Mikkeli;Etelä-Savo;NULL
+ALBERTVILLE;1992;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Jari Räsänen;Maaninka;Pohjois-Savo;NULL
+ALBERTVILLE;1992;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Jari Isometsä;Tornio;Lappi;Alatornio
+ALBERTVILLE;1992;Kultaa;Mäkihyppy;Suurmäki;Toni Nieminen;Lahti;Päijät-Häme;NULL
+ALBERTVILLE;1992;Kultaa;Mäkihyppy;Joukkuemäki;Ari-Pekka Nikkola;Kuopio;Pohjois-Savo;NULL
+ALBERTVILLE;1992;Kultaa;Mäkihyppy;Joukkuemäki;Mika Laitinen;Kuopio;Pohjois-Savo;NULL
+ALBERTVILLE;1992;Kultaa;Mäkihyppy;Joukkuemäki;Risto Laakkonen;Kuopio;Pohjois-Savo;NULL
+ALBERTVILLE;1992;Kultaa;Mäkihyppy;Joukkuemäki;Toni Nieminen;Lahti;Päijät-Häme;NULL
+ALBERTVILLE;1992;Pronssia;Mäkihyppy;Normaalimäki;Toni Nieminen;Lahti;Päijät-Häme;NULL
+LILLEHAMMER;1994;Hopeaa;Maastohiihto;50 km hiihto (p), miehet;Mika Myllylä;Oulu;Pohjois-Pohjanmaa;NULL
+LILLEHAMMER;1994;Pronssia;Maastohiihto;30 km hiihto (v), miehet;Mika Myllylä;Oulu;Pohjois-Pohjanmaa;NULL
+LILLEHAMMER;1994;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Mika Myllylä;Oulu;Pohjois-Pohjanmaa;NULL
+LILLEHAMMER;1994;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Harri Kirvesniemi;Mikkeli;Etelä-Savo;NULL
+LILLEHAMMER;1994;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Jari Räsänen;Maaninka;Pohjois-Savo;NULL
+LILLEHAMMER;1994;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Jari Isometsä;Tornio;Lappi;Alatornio
+LILLEHAMMER;1994;Pronssia;Maastohiihto;5 km hiihto (p), naiset;Marja-Liisa Kirvesniemi;Parikkala;Etelä-Karjala;Simpele
+LILLEHAMMER;1994;Pronssia;Maastohiihto;30 km hiihto (p), naiset;Marja-Liisa Kirvesniemi;Parikkala;Etelä-Karjala;Simpele
+NAGANO;1998;Pronssia;Ampumahiihto;10 km ampumahiihto, miehet;Ville Räikkönen;Tuusula;Uusimaa;NULL
+NAGANO;1998;Hopeaa;Freestyle;Kumparelasku, miehet;Janne Lahtela;Kemijärvi;Lappi;NULL
+NAGANO;1998;Pronssia;Freestyle;Kumparelasku, miehet;Sami Mustonen;Kemijärvi;Lappi;NULL
+NAGANO;1998;Kultaa;Maastohiihto;30 km hiihto (p), miehet;Mika Myllylä;Oulu;Pohjois-Pohjanmaa;NULL
+NAGANO;1998;Pronssia;Maastohiihto;10 km hiihto (p), miehet;Mika Myllylä;Oulu;Pohjois-Pohjanmaa;NULL
+NAGANO;1998;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Harri Kirvesniemi;Mikkeli;Etelä-Savo;NULL
+NAGANO;1998;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Mika Myllylä;Oulu;Pohjois-Pohjanmaa;NULL
+NAGANO;1998;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Sami Repo;Parikkala;Etelä-Karjala;Simpele
+NAGANO;1998;Pronssia;Maastohiihto;4 x 10 km viestihiihto, miehet;Jari Isometsä;Tornio;Lappi;Alatornio
+NAGANO;1998;Kultaa;Mäkihyppy;Normaalimäki;Jani Soininen;Jyväskylä;Keski-Suomi;NULL
+NAGANO;1998;Hopeaa;Mäkihyppy;Suurmäki;Jani Soininen;Jyväskylä;Keski-Suomi;NULL
+NAGANO;1998;Hopeaa;Yhdistetty;Yhdistetty hiihto;Samppa Lajunen;Turku;Varsinais-Suomi;NULL
+NAGANO;1998;Hopeaa;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Samppa Lajunen;Turku;Varsinais-Suomi;NULL
+NAGANO;1998;Hopeaa;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Jari Mantila;Kotka;Kymenlaakso;NULL
+NAGANO;1998;Hopeaa;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Tapio Nurmela;Rovaniemi;Lappi;NULL
+NAGANO;1998;Hopeaa;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Hannu Manninen;Rovaniemi;Lappi;NULL
+SALT LAKE CITY;2002;Kultaa;Freestyle;Kumparelasku, miehet;Janne Lahtela;Kemijärvi;Lappi;NULL
+SALT LAKE CITY;2002;Hopeaa;Mäkihyppy;Joukkuemäki;Matti Hautamäki;Oulu;Pohjois-Pohjanmaa;NULL
+SALT LAKE CITY;2002;Hopeaa;Mäkihyppy;Joukkuemäki;Veli-Matti Lindström;Nastola;Päijät-Häme;NULL
+SALT LAKE CITY;2002;Hopeaa;Mäkihyppy;Joukkuemäki;Risto Jussilainen;Jyväskylä;Keski-Suomi;NULL
+SALT LAKE CITY;2002;Hopeaa;Mäkihyppy;Joukkuemäki;Janne Ahonen;Lahti;Päijät-Häme;NULL
+SALT LAKE CITY;2002;Pronssia;Mäkihyppy;Suurmäki;Matti Hautamäki;Oulu;Pohjois-Pohjanmaa;NULL
+SALT LAKE CITY;2002;Kultaa;Yhdistetty;Yhdistetty hiihto, normaalikilp.;Samppa Lajunen;Turku;Varsinais-Suomi;NULL
+SALT LAKE CITY;2002;Kultaa;Yhdistetty;Yhdistetty hiihto, sprinttikilp.;Samppa Lajunen;Turku;Varsinais-Suomi;NULL
+SALT LAKE CITY;2002;Kultaa;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Jari Mantila;Kotka;Kymenlaakso;NULL
+SALT LAKE CITY;2002;Kultaa;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Hannu Manninen;Rovaniemi;Lappi;NULL
+SALT LAKE CITY;2002;Kultaa;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Jaakko Tallus;Lieksa;Pohjois-Karjala;NULL
+SALT LAKE CITY;2002;Kultaa;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Samppa Lajunen;Turku;Varsinais-Suomi;NULL
+SALT LAKE CITY;2002;Hopeaa;Yhdistetty;Yhdistetty hiihto, normaalikilp.;Jaakko Tallus;Lieksa;Pohjois-Karjala;NULL
+TORINO;2006;Hopeaa;Alppihiihto;Suurpujottelu, naiset;Tanja Poutiainen;Rovaniemi;Lappi;NULL
+TORINO;2006;Hopeaa;Freestyle;Kumparelasku, miehet;Mikko Ronkainen;Muurame;Keski-Suomi;NULL
+TORINO;2006;Pronssia;Maastohiihto;Sprinttiviestihiihto (p), naiset;Aino-Kaisa Saarinen;Hollola;Päijät-Häme;NULL
+TORINO;2006;Pronssia;Maastohiihto;Sprinttiviestihiihto (p), naiset;Virpi Kuitunen;Kangasniemi;Etelä-Savo;NULL
+TORINO;2006;Pronssia;Lumilautailu;Lumilautailu/kouru, miehet;Markku Koski;Sievi;Pohjois-Pohjanmaa;NULL
+TORINO;2006;Hopeaa;Mäkihyppy;Normaalimäki;Matti Hautamäki;Oulu;Pohjois-Pohjanmaa;NULL
+TORINO;2006;Hopeaa;Mäkihyppy;Joukkuemäki;Tami Kiuru;Vantaa;Uusimaa;NULL
+TORINO;2006;Hopeaa;Mäkihyppy;Joukkuemäki;Janne Happonen;Kuopio;Pohjois-Savo;NULL
+TORINO;2006;Hopeaa;Mäkihyppy;Joukkuemäki;Janne Ahonen;Lahti;Päijät-Häme;NULL
+TORINO;2006;Hopeaa;Mäkihyppy;Joukkuemäki;Matti Hautamäki;Oulu;Pohjois-Pohjanmaa;NULL
+TORINO;2006;Pronssia;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Antti Kuisma;Jyväskylä;Keski-Suomi;NULL
+TORINO;2006;Pronssia;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Anssi Koivuranta;Kuusamo;Kainuu;NULL
+TORINO;2006;Pronssia;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Jaakko Tallus;Lieksa;Pohjois-Karjala;NULL
+TORINO;2006;Pronssia;Yhdistetty;Yhdistetty hiihto, joukkuekilp.;Hannu Manninen;Rovaniemi;Lappi;NULL
+VANCOUVER;2010;Pronssia;Maastohiihto;30 km hiihto (p), naiset;Aino-Kaisa Saarinen;Hollola;Päijät-Häme;NULL
+VANCOUVER;2010;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Pirjo Muranen;Rovaniemi;Lappi;NULL
+VANCOUVER;2010;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Virpi Kuitunen;Kangasniemi;Etelä-Savo;NULL
+VANCOUVER;2010;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Riitta-Liisa Roponen;Oulu;Pohjois-Pohjanmaa;Haukipudas
+VANCOUVER;2010;Pronssia;Maastohiihto;4 x 5 km viestihiihto, naiset;Aino-Kaisa Saarinen;Hollola;Päijät-Häme;NULL
+VANCOUVER;2010;Hopeaa;Lumilautailu;Lumilautailu/kouru, miehet;Peetu Piiroinen;Hyvinkää;Uusimaa;NULL
