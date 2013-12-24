@@ -170,6 +170,7 @@ var yleApp = {
     console.log(data);
     map_data = data;
     var rows = data['rows'];
+
     for (var i in rows) {
       var newCoordinates = [];
       newCoordinates = yleApp.constructNewCoordinates(rows[i][9]['geometry']);
@@ -185,36 +186,6 @@ var yleApp = {
       polygon.data = rows[i];
       polygons.push(polygon);
 
-      tooltip.fixPos = function() {
-        var event = window.event;
-        if (event == null) {
-          event = $(window).data('event');
-        }
-        if (!event) {
-          return;
-        }
-        var bodyWidth = $('body').width();
-        var boxWidth = this.outerWidth();
-        if (boxWidth + this.position().left > $(window).width() + $(window).scrollLeft()) {
-          self.invertX = true;
-        }
-        if (self.invertX && this.position().left - $(window).scrollLeft() < 0) {
-          self.invertX = false;
-        }
-        var left = 0;
-        var top = event.clientY - 25 + $(window).scrollTop();
-        if (self.invertX) {
-          left = event.clientX - 20 - boxWidth + $(window).scrollLeft();
-        }
-        else {
-          left = event.clientX + 20 + $(window).scrollLeft();
-        }
-        if (this.outerHeight() + top > $(window).scrollTop() + $(window).height()) {
-          top = $(window).height() - this.outerHeight() + $(window).scrollTop();
-        }
-        this.offset({left: left, top:top});
-      };
-
       google.maps.event.addListener(polygon, 'mouseover', function(e) {
         this.setOptions({
           strokeOpacity: 1,
@@ -222,7 +193,6 @@ var yleApp = {
         });
         tooltip.html('<strong>' + this.data[3] + ", mitalit: " + data_desc[this.data[2]].medals + '</strong>');
         tooltip.show();
-        tooltip.fixPos();
       });
 
       google.maps.event.addListener(polygon, 'mouseout', function() {
@@ -234,7 +204,7 @@ var yleApp = {
       });
       
       google.maps.event.addListener(polygon, 'mousemove', function(e,e2) {
-        tooltip.fixPos();
+        
       }); 
 
       polygon.setMap(map);
@@ -244,6 +214,7 @@ var yleApp = {
         //$('#esi-vis .area_desc').html(data_desc[this.data[0]].desc);
       });
     }
+
   },
    constructNewCoordinates: function(polygon) {
     var newCoordinates = [];
