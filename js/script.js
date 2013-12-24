@@ -5,27 +5,88 @@ var rawData = [];
 var data_desc = {
   'total': {
     'buckets': {
-      0: {'min':0,'max':350000000,'color':'#78b928','opacity':0.5},
-      1: {'min':350000000,'max':400000000 ,'color':'#7b7c7e','opacity':0.5},
-      2: {'min':400000000,'max':700000000,'color':'#00b4c8','opacity':0.5},
-      3: {'min':700000000,'max':800000000,'color':'#007882','opacity':0.5}
+      0: {'min':0,'max':1,'color':'#78b928','opacity':0.5},
+      1: {'min':2,'max':10 ,'color':'#7b7c7e','opacity':0.5},
+      2: {'min':11,'max':14,'color':'#00b4c8','opacity':0.5},
+      3: {'min':15,'max':19,'color':'#007882','opacity':0.5},
+      4: {'min':20,'max':999,'color':'#007882','opacity':0.5}
     }
   },
-  'east': {
-    'name': 'Itä-Suomi',
-    'desc': '<strong>Alueeseen kuuluvat maakunnat:</strong><br />Etelä-Savo, Kainuu, Pohjois-Karjala, Pohjois-Savo'
+  '1': {
+    'name': 'Uusimaa',
+    'medals': 15
   },
-  'west': {
-    'name': 'Länsi-Suomi',
-    'desc': '<strong>Alueeseen kuuluvat maakunnat:</strong><br />Pohjanmaa, Etelä-Pohjanmaa, Satakunta, Pirkanmaa, Keski-Suomi'
+  '2': {
+    'name': 'Varsinais-Suomi',
+    'medals': 3
   },
-  'north': {
-    'name': 'Pohjois-Suomi',
-    'desc': '<strong>Alueeseen kuuluvat maakunnat:</strong><br />Pohjois-Pohjanmaa, Lappi, Keski-Pohjanmaa'
+  '4': {
+    'name': 'Satakunta',
+    'medals': 7
   },
-  'south': {
-    'name': 'Etelä-Suomi',
-    'desc': '<strong>Alueeseen kuuluvat maakunnat:</strong><br />Etelä-Karjala, Kanta-Häme, Kymenlaakso, Päijät-Häme, Uusimaa, Varsinais-Suomi'
+  '5': {
+    'name': 'Kanta-Häme',
+    'medals': 2
+  },
+  '6': {
+    'name': 'Pirkanmaa',
+    'medals': 5
+  },
+  '7': {
+    'name': 'Päijät-Häme',
+    'medals': 3
+  },
+  '8': {
+    'name': 'Kymenlaakso',
+    'medals': 1
+  },
+  '9': {
+    'name': 'Etelä-Karjala',
+    'medals': 1
+  },
+  '10': {
+    'name': 'Etelä-Savo',
+    'medals': 1
+  },
+  '11': {
+    'name': 'Pohjois-Savo',
+    'medals': 1
+  },
+  '12': {
+    'name': 'Pohjois-Karjala',
+    'medals': 1
+  },
+  '13': {
+    'name': 'Keski-Suomi',
+    'medals': 11
+  },
+  '14': {
+    'name': 'Etelä-Pohjanmaa',
+    'medals': 1
+  },
+  '15': {
+    'name': 'Pohjanmaa',
+    'medals': 1
+  },
+  '16': {
+    'name': 'Keski-Pohjanmaa',
+    'medals': 1
+  },
+  '17': {
+    'name': 'Pohjois-Pohjanmaa',
+    'medals': 15
+  },
+  '18': {
+    'name': 'Kainuu',
+    'medals': 1
+  },
+  '19': {
+    'name': 'Lappi',
+    'medals': 1
+  },
+  '21': {
+    'name': 'Ahvenanmaan maakunta',
+    'medals': 20
   }
 }
 
@@ -159,7 +220,7 @@ var yleApp = {
           strokeOpacity: 1,
           strokeWeight: 3
         });
-        tooltip.html('<strong>' + this.data[3] + '</strong>');
+        tooltip.html('<strong>' + this.data[3] + ", mitalit: " + data_desc[this.data[2]].medals + '</strong>');
         tooltip.show();
         tooltip.fixPos();
       });
