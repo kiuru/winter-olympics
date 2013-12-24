@@ -8,85 +8,85 @@ var data_desc = {
       0: {'min':0,'max':1,'color':'#7b7c7e','opacity':0.5},
       1: {'min':2,'max':10 ,'color':'#78b928','opacity':0.5},
       2: {'min':11,'max':14,'color':'#00b4c8','opacity':0.5},
-      3: {'min':15,'max':19,'color':'#007882','opacity':0.5},
+      3: {'min':15,'max':19,'color':'#008888','opacity':0.5},
       4: {'min':20,'max':999,'color':'#007882','opacity':0.5}
     }
   },
   '1': {
     'name': 'Uusimaa',
-    'medals': 15
+    'medals': 0
   },
   '2': {
     'name': 'Varsinais-Suomi',
-    'medals': 3
+    'medals': 0
   },
   '4': {
     'name': 'Satakunta',
-    'medals': 7
+    'medals': 0
   },
   '5': {
     'name': 'Kanta-Häme',
-    'medals': 2
+    'medals': 0
   },
   '6': {
     'name': 'Pirkanmaa',
-    'medals': 5
+    'medals': 0
   },
   '7': {
     'name': 'Päijät-Häme',
-    'medals': 3
+    'medals': 0
   },
   '8': {
     'name': 'Kymenlaakso',
-    'medals': 1
+    'medals': 0
   },
   '9': {
     'name': 'Etelä-Karjala',
-    'medals': 1
+    'medals': 0
   },
   '10': {
     'name': 'Etelä-Savo',
-    'medals': 1
+    'medals': 0
   },
   '11': {
     'name': 'Pohjois-Savo',
-    'medals': 1
+    'medals': 0
   },
   '12': {
     'name': 'Pohjois-Karjala',
-    'medals': 1
+    'medals': 0
   },
   '13': {
     'name': 'Keski-Suomi',
-    'medals': 11
+    'medals': 0
   },
   '14': {
     'name': 'Etelä-Pohjanmaa',
-    'medals': 1
+    'medals': 0
   },
   '15': {
     'name': 'Pohjanmaa',
-    'medals': 1
+    'medals': 0
   },
   '16': {
     'name': 'Keski-Pohjanmaa',
-    'medals': 1
+    'medals': 0
   },
   '17': {
     'name': 'Pohjois-Pohjanmaa',
-    'medals': 15
+    'medals': 0
   },
   '18': {
     'name': 'Kainuu',
-    'medals': 1
+    'medals': 0
   },
   '19': {
     'name': 'Lappi',
-    'medals': 1
+    'medals': 0
   },
   '21': {
     'name': 'Ahvenanmaan maakunta',
-    'medals': 20
+    'medals': 0
   }
 }
 
@@ -111,10 +111,15 @@ var yleApp = {
     }
   },
   init: function() {
+    for (var i in rawData) {
+      for (var a in data_desc) {
+        if (data_desc[a].name == rawData[i].maakunta) {
+          data_desc[a].medals++;
+        }
+      }
+    }
+
     yleApp.initMap();
-    //for (var i in rawData) {
-      //console.log(rawData[i]["kilpailu"]);
-    //}
   },
   initMap: function() {
     var myOptions = {
