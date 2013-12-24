@@ -215,8 +215,14 @@ var yleApp = {
       polygon.setMap(map);
 
       google.maps.event.addListener(polygon, 'click', function(e) {
-        //$('#esi-vis .area_title').text(data_desc[this.data[0]].name);
-        //$('#esi-vis .area_desc').html(data_desc[this.data[0]].desc);
+        $('#esi-vis #medals_table tbody').empty();
+
+        for (var i in rawData) {
+          if (this.data[3] == rawData[i].maakunta) {
+            $('#esi-vis #medals_table tbody').append('<tr><td>'+rawData[i].maakunta+'</td><td>'+rawData[i].kotikunta+'</td><td>?</td></tr>');
+          }
+        }
+
       });
     }
 
