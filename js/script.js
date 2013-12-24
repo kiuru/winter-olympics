@@ -5,8 +5,8 @@ var rawData = [];
 var data_desc = {
   'total': {
     'buckets': {
-      0: {'min':0,'max':1,'color':'#78b928','opacity':0.5},
-      1: {'min':2,'max':10 ,'color':'#7b7c7e','opacity':0.5},
+      0: {'min':0,'max':1,'color':'#7b7c7e','opacity':0.5},
+      1: {'min':2,'max':10 ,'color':'#78b928','opacity':0.5},
       2: {'min':11,'max':14,'color':'#00b4c8','opacity':0.5},
       3: {'min':15,'max':19,'color':'#007882','opacity':0.5},
       4: {'min':20,'max':999,'color':'#007882','opacity':0.5}
@@ -204,7 +204,7 @@ var yleApp = {
       });
       
       google.maps.event.addListener(polygon, 'mousemove', function(e,e2) {
-        
+
       }); 
 
       polygon.setMap(map);
@@ -225,10 +225,9 @@ var yleApp = {
     return newCoordinates;
   },
   getFillColor: function(row) {
-    var color = '#ff0000';
-    var selected_type = ($('#esi-vis input[name=type_selector]:checked').val());
+    var color = '#7b7c7e';
     $.each(data_desc['total'].buckets, function(i, bucket) {
-      if (row[1] >= bucket.min && row[1] < bucket.max) {
+      if (data_desc[row[2]].medals >= bucket.min && data_desc[row[2]].medals <= bucket.max) {
         color = bucket.color;
       }
     });
