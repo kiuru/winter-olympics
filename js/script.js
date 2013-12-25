@@ -217,10 +217,25 @@ var yleApp = {
       google.maps.event.addListener(polygon, 'click', function(e) {
         $('#esi-vis #medals_table tbody').empty();
 
+        var medals_table = [];
         for (var i in rawData) {
+
           if (this.data[3] == rawData[i].maakunta) {
-            $('#esi-vis #medals_table tbody').append('<tr><td>'+rawData[i].maakunta+'</td><td>'+rawData[i].kotikunta+'</td><td>?</td></tr>');
+
+            if (typeof medals_table[rawData[i].kotikunta] !== "undefined" && medals_table[rawData[i].kotikunta] !== null) {
+              medals_table[rawData[i].kotikunta].medals += 1;
+            } else {
+              medals_table[rawData[i].kotikunta] = {};
+              medals_table[rawData[i].kotikunta].kotikunta = rawData[i].kotikunta
+              medals_table[rawData[i].kotikunta].medals = 1;
+            }
+
           }
+
+        }
+
+        for (var value in medals_table) {
+          $('#esi-vis #medals_table tbody').append('<tr><td>'+this.data[3]+'</td><td>'+medals_table[value].kotikunta+'</td><td>'+medals_table[value].medals+'</td></tr>');
         }
 
       });
