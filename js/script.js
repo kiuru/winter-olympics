@@ -123,7 +123,7 @@ var yleApp = {
   },
   initMap: function() {
     var myOptions = {
-      zoom: 5,
+      zoom: 4,
       panControl: false,
       zoomControl: false,
       scrollwheel: false,
@@ -132,7 +132,7 @@ var yleApp = {
       draggable: false,
       streetViewControl: false,
       overviewMapControl: false,
-      center: new google.maps.LatLng(65.5, 24),
+      center: new google.maps.LatLng(65, 25),
       mapTypeId: google.maps.MapTypeId.ROAD
     };
     map = new google.maps.Map($('#esi-vis .map')[0], myOptions);
@@ -172,7 +172,8 @@ var yleApp = {
 
   },
   drawNewMap: function(data) {
-    console.log(data);
+    yleApp.mapClickAction("Uusimaa"); // default value
+
     map_data = data;
     var rows = data['rows'];
 
@@ -215,34 +216,37 @@ var yleApp = {
       polygon.setMap(map);
 
       google.maps.event.addListener(polygon, 'click', function(e) {
-        $('#esi-vis #medals_table tbody').empty();
-
-        var medals_table = [];
-        for (var i in rawData) {
-
-          if (this.data[3] == rawData[i].maakunta) {
-
-            if (typeof medals_table[rawData[i].kotikunta] !== "undefined" && medals_table[rawData[i].kotikunta] !== null) {
-              medals_table[rawData[i].kotikunta].medals += 1;
-            } else {
-              medals_table[rawData[i].kotikunta] = {};
-              medals_table[rawData[i].kotikunta].kotikunta = rawData[i].kotikunta
-              medals_table[rawData[i].kotikunta].medals = 1;
-            }
-
-          }
-
-        }
-
-        for (var value in medals_table) {
-          $('#esi-vis #medals_table tbody').append('<tr><td>'+this.data[3]+'</td><td>'+medals_table[value].kotikunta+'</td><td>'+medals_table[value].medals+'</td></tr>');
-        }
-
+        yleApp.mapClickAction(this.data[3]);
       });
     }
 
   },
-   constructNewCoordinates: function(polygon) {
+  mapClickAction: function(click) {
+    $('#esi-vis #medals_table tbody').empty();
+
+    var medals_table = [];
+    for (var i in rawData) {
+
+      if (click == rawData[i].maakunta) {
+
+        if (typeof medals_table[rawData[i].kotikunta] !== "undefined" && medals_table[rawData[i].kotikunta] !== null) {
+          medals_table[rawData[i].kotikunta].medals += 1;
+        } else {
+          medals_table[rawData[i].kotikunta] = {};
+          medals_table[rawData[i].kotikunta].kotikunta = rawData[i].kotikunta
+          medals_table[rawData[i].kotikunta].medals = 1;
+        }
+
+      }
+
+    }
+
+    for (var value in medals_table) {
+      $('#esi-vis #medals_table tbody').append('<tr><td>'+click+'</td><td>'+medals_table[value].kotikunta+'</td><td>'+medals_table[value].medals+'</td></tr>');
+    }
+
+  },
+  constructNewCoordinates: function(polygon) {
     var newCoordinates = [];
     var coordinates = polygon['coordinates'][0];
     for (var i in coordinates) {

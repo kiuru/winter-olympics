@@ -6,14 +6,31 @@
 #esi-vis .map {
   border: 1px solid #bebebf;
   font-family: arial;
-  height: 500px;
+  width: 180px;
+  height: 340px;
   margin: 0;
   padding: 0;
   width: 100%;
 }
-#esi-vis.wide .map {
-  height: 580px;
-}
 #esi-vis .map img {
   max-width: none;
+}
+/* Container styles */
+#esi-vis .container {
+  width: 100%;
+}
+#esi-vis .clear {
+  clear: both;
+}
+#esi-vis .left_container {
+  width: 200px;
+  float:left;
+}
+#esi-vis .right_container {
+  margin-left: 200px;
+  vertical-align: top;
+}
+#esi-vis.wide .right_container {
+  margin-left: 220px;
+  width: 360px;
 }
