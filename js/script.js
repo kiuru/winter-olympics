@@ -126,6 +126,7 @@ var yleApp = {
       zoom: 4,
       panControl: false,
       zoomControl: false,
+      disableDoubleClickZoom: true,
       scrollwheel: false,
       mapTypeControl: false,
       scaleControl: false,
