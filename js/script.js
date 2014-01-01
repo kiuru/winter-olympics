@@ -1,6 +1,8 @@
 var polygons = [];
 var tooltip = $('#esi-vis .tooltip');
 var rawData = [];
+var individualSportData = [];
+var teamSportData = [];
 /* This array describes the data fetched from Fusion Tables */
 var data_desc = {
   'total': {
@@ -111,6 +113,13 @@ var yleApp = {
     }
   },
   init: function() {
+    // reset medals table
+    $.each(data_desc, function(index, value){
+      if (index != "total") {
+        data_desc[index].medals = 0;
+      }
+    })
+
     for (var i in rawData) {
       for (var a in data_desc) {
         if (data_desc[a].name == rawData[i].maakunta) {
@@ -267,15 +276,34 @@ var yleApp = {
 }
 
 $(document).ready(function() {
+
   yleApp.getScale();
+
   $(window).resize(function () {
     yleApp.getScale();
   });
-  $.getJSON("case-2013/Olympiamitalistit/data/yksilourheilijat.json", function(data){
-      rawData = data;
-      yleApp.init();
-      /*for (var i in data) {
-        console.log(data[i]["urheilijat"]);
-      }*/
-    });
+
+  $.getJSON("case-2013/Olympiamitalistit/data/joukkueurheilijat.json", function(data){
+    teamSportData = data;
+    $.getJSON("case-2013/Olympiamitalistit/data/yksilourheilijat.json", function(data){
+        individualSportData = data;
+        rawData = individualSportData;
+        yleApp.init();
+      });
+  });
+
+  $('#sport_type input[type=radio]').click(function(){
+    switch (this.value) {
+      case "individual":
+        rawData = individualSportData;
+        break;
+      case "team":
+        rawData = teamSportData;
+        break;
+      default:
+        rawData = individualSportData;
+    }
+    yleApp.init();
+  });
+
 });
