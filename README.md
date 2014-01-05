@@ -1,10 +1,11 @@
 # Finland winter olympics medals
 
 ## Deploy
+Install apache2 and clone repository:
     git clone https://github.com/Yleisradio/yle-uutiset.git
-    git clone https://github.com/kiuru/winter-olympics.git yle-uutiset/esi/case-2013/Olympiamitalistit/
+    git clone https://github.com/kiuru/winter-olympics.git /var/www/yle-uutiset/esi/case-2013/Olympiamitalistit/
 
-Open browser:
+Open url via browser:
     http://localhost/yle-uutiset/esi/?f=case-2013/Olympiamitalistit
 
 ## Source
