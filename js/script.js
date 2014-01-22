@@ -251,14 +251,40 @@ var yleApp = {
 
     }
 
-    var count_medals = 0;
+    var tmp_table = [];
+    var i = 0;
     for (var value in medals_table) {
+      tmp_table[i] = {};
+      tmp_table[i].medals = medals_table[value].medals;
+      tmp_table[i].kotikunta = medals_table[value].kotikunta;
+      i++;
+    }
+
+    tmp_table = yleApp.bubbleSort(tmp_table, 'medals');
+
+    var count_medals = 0;
+    for (var value in tmp_table) {
       $('#esi-vis #province').html(click);
-      $('#esi-vis #medals_table tbody').append('<tr><td>'+medals_table[value].kotikunta+'</td><td>'+medals_table[value].medals+'</td></tr>');
-      count_medals += medals_table[value].medals;
+      $('#esi-vis #medals_table tbody').append('<tr><td>'+tmp_table[value].kotikunta+'</td><td>'+tmp_table[value].medals+'</td></tr>');
+      count_medals += tmp_table[value].medals;
     }
     $('#esi-vis #medals_table tbody').append('<tr><td><strong>Yhteensä</strong></td><td><strong>'+count_medals+'</strong></td></tr>');
 
+  },
+  bubbleSort: function(a, par) {
+    var swapped;
+    do {
+      swapped = false;
+      for (var i = 0; i < a.length - 1; i++) {
+        if (a[i][par] < a[i + 1][par]) {
+          var temp = a[i];
+          a[i] = a[i + 1];
+          a[i + 1] = temp;
+          swapped = true;
+        }
+      }
+    } while (swapped);
+    return a;
   },
   constructNewCoordinates: function(polygon) {
     var newCoordinates = [];
