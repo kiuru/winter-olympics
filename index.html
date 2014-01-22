@@ -4,8 +4,8 @@
 	<div class="container">
 		<div id="selector_area">
 			<form id="sport_type">
-				<input type="radio" name="datasource" value="individual" checked="true"> Yksilöurheilu
-				<input type="radio" name="datasource" value="team"> Joukkueurheilu
+				<label><input type="radio" name="datasource" value="individual" checked="true"> Yksilöurheilu</label>
+				<label><input type="radio" name="datasource" value="team"> Joukkueurheilu</label>
 			</form>
 		</div>
     	<div class="left_container">
@@ -15,12 +15,12 @@
 		</div>
 
 		<div class="right_container">
+			<h2>Maakunta: <span id="province"></span></h2>
 			<table id="medals_table">
 				<thead>
 					<tr>
-						<th>Maakunta</th>
 						<th>Kunta</th>
-						<th>Mitalleja</th>
+						<th>Mitalit</th>
 					</tr>
 				</thead>
 				<tbody></tbody>

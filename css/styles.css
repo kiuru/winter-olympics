@@ -4,7 +4,6 @@
 }
 /* Map styles */
 #esi-vis .map {
-  border: 1px solid #bebebf;
   font-family: arial;
   width: 180px;
   height: 340px;
@@ -33,4 +32,34 @@
 #esi-vis.wide .right_container {
   margin-left: 220px;
   width: 360px;
+}
+/* Table styles */
+#esi-vis .table th {
+  padding: 0 3px;
+}
+#esi-vis .search_container {
+  margin-bottom: 10px;
+}
+#esi-vis .search {
+  width: 200px;
+}
+.article #container > .content > .text #esi-vis th,
+.article #container > .content > .text #esi-vis tbody {
+  border: 0;
+}
+.article #container > .content > .text #esi-vis tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+.article #container > .content > .text #esi-vis thead tr,
+.article #container > .content > .text #esi-vis thead tr:hover,
+.article #container > .content > .text #esi-vis tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+.article #container > .content > .text #esi-vis thead th,
+.article #container > .content > .text #esi-vis tbody td {
+  border: 0;
+  padding: 6px 4px 6px 3px;
+}
+.article #container > .content > .text #esi-vis tbody td {
+  vertical-align: middle;
 }

@@ -252,7 +252,8 @@ var yleApp = {
     }
 
     for (var value in medals_table) {
-      $('#esi-vis #medals_table tbody').append('<tr><td>'+click+'</td><td>'+medals_table[value].kotikunta+'</td><td>'+medals_table[value].medals+'</td></tr>');
+      $('#esi-vis #province').html(click);
+      $('#esi-vis #medals_table tbody').append('<tr><td>'+medals_table[value].kotikunta+'</td><td>'+medals_table[value].medals+'</td></tr>');
     }
 
   },
