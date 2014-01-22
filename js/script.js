@@ -251,10 +251,13 @@ var yleApp = {
 
     }
 
+    var count_medals = 0;
     for (var value in medals_table) {
       $('#esi-vis #province').html(click);
       $('#esi-vis #medals_table tbody').append('<tr><td>'+medals_table[value].kotikunta+'</td><td>'+medals_table[value].medals+'</td></tr>');
+      count_medals += medals_table[value].medals;
     }
+    $('#esi-vis #medals_table tbody').append('<tr><td><strong>Yhteensä</strong></td><td><strong>'+count_medals+'</strong></td></tr>');
 
   },
   constructNewCoordinates: function(polygon) {
