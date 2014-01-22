@@ -4,7 +4,7 @@ var rawData = [];
 var individualSportData = [];
 var teamSportData = [];
 /* This array describes the data fetched from Fusion Tables */
-var data_desc = {
+var colors = {
   'total': {
     'buckets': {
       0: {'min':0,'max':1,'color':'#7b7c7e','opacity':0.5},
@@ -13,7 +13,9 @@ var data_desc = {
       3: {'min':15,'max':19,'color':'#008888','opacity':0.5},
       4: {'min':20,'max':999,'color':'#007882','opacity':0.5}
     }
-  },
+  }
+}
+var data_desc = {
   '1': {
     'name': 'Uusimaa',
     'medals': 0
@@ -115,9 +117,7 @@ var yleApp = {
   init: function() {
     // reset medals table
     $.each(data_desc, function(index, value){
-      if (index != "total") {
-        data_desc[index].medals = 0;
-      }
+      data_desc[index].medals = 0;
     })
 
     for (var i in rawData) {
@@ -296,7 +296,7 @@ var yleApp = {
   },
   getFillColor: function(row) {
     var color = '#7b7c7e';
-    $.each(data_desc['total'].buckets, function(i, bucket) {
+    $.each(colors['total'].buckets, function(i, bucket) {
       if (data_desc[row[2]].medals >= bucket.min && data_desc[row[2]].medals <= bucket.max) {
         color = bucket.color;
       }
