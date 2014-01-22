@@ -183,6 +183,7 @@ var yleApp = {
   },
   drawNewMap: function(data) {
     yleApp.mapClickAction("Uusimaa"); // default value
+    tooltip.html('<strong>Uusimaa</strong>'); // Hard coded as like default value
 
     map_data = data;
     var rows = data['rows'];
@@ -207,16 +208,14 @@ var yleApp = {
           strokeOpacity: 1,
           strokeWeight: 3
         });
-        tooltip.html('<strong>' + this.data[3] + ", mitalit: " + data_desc[this.data[2]].medals + '</strong>');
-        tooltip.show();
+        tooltip.html('<strong>' + this.data[3] + '</strong>');
       });
 
       google.maps.event.addListener(polygon, 'mouseout', function() {
         this.setOptions({
-          strokeOpacity: 0.7,
+          trokeOpacity: 0.7,
           strokeWeight: 1
         });
-        tooltip.hide();
       });
       
       google.maps.event.addListener(polygon, 'mousemove', function(e,e2) {
@@ -226,6 +225,10 @@ var yleApp = {
       polygon.setMap(map);
 
       google.maps.event.addListener(polygon, 'click', function(e) {
+        this.setOptions({
+          strokeOpacity: 1,
+          strokeWeight: 3
+        });
         yleApp.mapClickAction(this.data[3]);
       });
     }
