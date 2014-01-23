@@ -3,11 +3,18 @@
 
 	<div class="container">
 		<div id="selector_area">
-			<form id="sport_type">
+			<div id="sport_type" style="float:left;">
 				<label><input type="radio" name="datasource" value="individual" checked="true"> Yksilöurheilu</label>
 				<label><input type="radio" name="datasource" value="team"> Joukkueurheilu</label>
-			</form>
+			</div>
+			<div id="selector_is_country" style="float:right;">
+				<label><input type="radio" name="is_country" value="true" checked="true"> Koko Suomi</label>
+				<label><input type="radio" name="is_country" value="false"> Maakunnittain</label>
+			</div>
 		</div>
+
+		<div class="clear"></div>
+
     	<div class="left_container">
     		<div class="map"></div>
 			<div class="tooltip"></div>
@@ -15,16 +22,53 @@
 		</div>
 
 		<div class="right_container">
-			<h2>Maakunta: <span id="province"></span></h2>
-			<table id="medals_table">
-				<thead>
-					<tr>
-						<th>Kunta</th>
-						<th>Mitalit</th>
-					</tr>
-				</thead>
-				<tbody></tbody>
-			</table>
+
+			<div id="province_container">
+				<h2>Maakunta: <span id="province"></span></h2>
+				<table id="medals_table">
+					<thead>
+						<tr>
+							<th>Kunta</th>
+							<th>Mitalit</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+
+			<div id="country_container">
+				<h2>Koko Suomi</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Kunta</th>
+							<th>Mitalit</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td>1. Uusimaa</td><td>28</td></tr>
+						<tr><td>2. Lappi</td><td>27</td></tr>
+						<tr><td>3. Pohjois-Pohjanmaa</td><td>22</td></tr>
+						<tr><td>4. Pohjois-Savo</td><td>20</td></tr>
+						<tr><td>5. Etelä-Karjala</td><td>17</td></tr>
+						<tr><td>6. Kymenlaakso</td><td>16</td></tr>
+						<tr><td>7. Etelä-Pohjanmaa</td><td>15</td></tr>
+						<tr><td>7. Keski-Suomi</td><td>15</td></tr>
+						<tr><td>8. Päijät-Häme</td><td>14</td></tr>
+						<tr><td>9. Pohjois-Karjala</td><td>13</td></tr>
+						<tr><td>10. Etelä-Savo</td><td>12</td></tr>
+						<tr><td>11. Kainuu</td><td>9</td></tr>
+						<tr><td>11. Pirkanmaa</td><td>9</td></tr>
+						<tr><td>12. Varsinais-Suomi</td><td>6</td></tr>
+						<tr><td>13. Satakunta</td><td>3</td></tr>
+						<tr><td>14. Keski-Pohjanmaa</td><td>1</td></tr>
+						<tr><td>15. Ahvenanmaan maakunta</td><td>0</td></tr>
+						<tr><td>15. Kanta-Häme</td><td>0</td></tr>
+						<tr><td>15. Pohjanmaa</td><td>0</td></tr>
+						<tr><td><strong>Yhteensä</strong></td><td><strong>227</strong></td></tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 
 	</div>

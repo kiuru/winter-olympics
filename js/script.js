@@ -309,7 +309,8 @@ var yleApp = {
 }
 
 $(document).ready(function() {
-
+  $("#province_container").hide();
+  $("#country_container").show();
   yleApp.getScale();
 
   $(window).resize(function () {
@@ -337,6 +338,22 @@ $(document).ready(function() {
         rawData = individualSportData;
     }
     yleApp.init();
+  });
+
+  $('#selector_is_country input[type=radio]').click(function(){
+    switch (this.value) {
+      case "true":
+        $("#province_container").hide();
+        $("#country_container").show();
+        break;
+      case "false":
+        $("#country_container").hide();
+        $("#province_container").show();
+        break;
+      default:
+        $("#province_container").hide();
+        $("#country_container").show();
+    }
   });
 
 });
