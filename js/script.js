@@ -239,6 +239,7 @@ var yleApp = {
           strokeOpacity: 1,
           strokeWeight: 3
         });
+        $('#only_provinces').click();
         yleApp.mapClickAction(this.data[3]);
       });
     }
