@@ -343,10 +343,12 @@ $(document).ready(function() {
       case "individual":
         colors = colors_individual;
         rawData = individualSportData;
+        $("#selector_is_country").show();
         break;
       case "team":
         colors = colors_team;
         rawData = teamSportData;
+        $("#selector_is_country").hide();
         break;
       default:
         colors = colors_individual;
