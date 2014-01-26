@@ -4,17 +4,27 @@ var rawData = [];
 var individualSportData = [];
 var teamSportData = [];
 /* This array describes the data fetched from Fusion Tables */
-var colors = {
+var colors = {};
+var colors_individual = {
   'total': {
     'buckets': {
-      0: {'min':0,'max':1,'color':'#7b7c7e','opacity':0.5},
-      1: {'min':2,'max':10 ,'color':'#78b928','opacity':0.5},
-      2: {'min':11,'max':14,'color':'#00b4c8','opacity':0.5},
-      3: {'min':15,'max':19,'color':'#008888','opacity':0.5},
-      4: {'min':20,'max':999,'color':'#007882','opacity':0.5}
+      0: {'min':0,'max':3,'color':'#7b7c7e','opacity':0.5},
+      1: {'min':4,'max':10 ,'color':'#78b928','opacity':0.5},
+      2: {'min':12,'max':16,'color':'#00b4c8','opacity':0.5},
+      3: {'min':17,'max':999,'color':'#007882','opacity':0.5}
     }
   }
-}
+};
+var colors_team = {
+  'total': {
+    'buckets': {
+      0: {'min':0,'max':3,'color':'#7b7c7e','opacity':0.5},
+      1: {'min':4,'max':10 ,'color':'#78b928','opacity':0.5},
+      2: {'min':11,'max':19,'color':'#00b4c8','opacity':0.5},
+      3: {'min':20,'max':999,'color':'#007882','opacity':0.5}
+    }
+  }
+};
 var data_desc = {
   '1': {
     'name': 'Uusimaa',
@@ -92,7 +102,7 @@ var data_desc = {
     'name': 'Ahvenanmaan maakunta',
     'medals': 0
   }
-}
+};
 
 var yleApp = {
   formatNr: function (x) {
@@ -321,6 +331,7 @@ $(document).ready(function() {
     teamSportData = data;
     $.getJSON("case-2013/Olympiamitalistit/data/yksilourheilijat.json", function(data){
         individualSportData = data;
+        colors = colors_individual;
         rawData = individualSportData;
         yleApp.init();
       });
@@ -329,12 +340,15 @@ $(document).ready(function() {
   $('#sport_type input[type=radio]').click(function(){
     switch (this.value) {
       case "individual":
+        colors = colors_individual;
         rawData = individualSportData;
         break;
       case "team":
+        colors = colors_team;
         rawData = teamSportData;
         break;
       default:
+        colors = colors_individual;
         rawData = individualSportData;
     }
     yleApp.init();
