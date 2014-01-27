@@ -4,12 +4,12 @@
 	<div class="container">
 		<div id="selector_area">
 			<div id="sport_type" style="float:left;">
-				<label><input type="radio" name="datasource" value="individual" checked="true"> Yksilöurheilu</label>
-				<label><input type="radio" name="datasource" value="team"> Joukkueurheilu</label>
+				<button class="selected_button" id="sport_individual">Yksilöurheilu</button>
+				<button id="sport_team">Joukkueurheilu</button>
 			</div>
 			<div id="selector_is_country" style="float:right;">
-				<label><input type="radio" name="is_country" id="whole_country" value="true" checked="true"> Koko Suomi</label>
-				<label><input type="radio" name="is_country" id="only_provinces" value="false"> Maakunnittain</label>
+				<button class="selected_button" id="whole_country">Koko Suomi</button>
+				<button id="only_provinces">Maakunnittain</button>
 			</div>
 		</div>
 
@@ -24,7 +24,7 @@
 		<div class="right_container">
 
 			<div id="province_container">
-				<h2>Maakunta: <span id="province"></span></h2>
+				<h3 id="province"></h3>
 				<table id="medals_table">
 					<thead>
 						<tr>
@@ -37,7 +37,7 @@
 			</div>
 
 			<div id="country_container">
-				<h2>Koko Suomi</h2>
+				<h3>Koko Suomi</h3>
 				<table>
 					<thead>
 						<tr>

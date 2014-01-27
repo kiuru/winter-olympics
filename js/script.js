@@ -338,39 +338,36 @@ $(document).ready(function() {
       });
   });
 
-  $('#sport_type input[type=radio]').click(function(){
-    switch (this.value) {
-      case "individual":
-        colors = colors_individual;
-        rawData = individualSportData;
-        $("#selector_is_country").show();
-        break;
-      case "team":
-        colors = colors_team;
-        rawData = teamSportData;
-        $("#selector_is_country").hide();
-        break;
-      default:
-        colors = colors_individual;
-        rawData = individualSportData;
-    }
+  $('#sport_type').click(function(){
     yleApp.init();
   });
 
-  $('#selector_is_country input[type=radio]').click(function(){
-    switch (this.value) {
-      case "true":
-        $("#province_container").hide();
-        $("#country_container").show();
-        break;
-      case "false":
-        $("#country_container").hide();
-        $("#province_container").show();
-        break;
-      default:
-        $("#province_container").hide();
-        $("#country_container").show();
-    }
+  $('#sport_individual').click(function(){
+    colors = colors_individual;
+    rawData = individualSportData;
+    $("#selector_is_country").show();
+    $("#sport_individual").addClass("selected_button");
+    $("#sport_team").removeClass("selected_button");
+  });
+  $('#sport_team').click(function(){
+    colors = colors_team;
+    rawData = teamSportData;
+    $("#selector_is_country").hide();
+    $("#sport_team").addClass("selected_button");
+    $("#sport_individual").removeClass("selected_button");
+  });
+
+  $('#whole_country').click(function(){
+    $("#province_container").hide();
+    $("#country_container").show();
+    $("#whole_country").addClass("selected_button");
+    $("#only_provinces").removeClass("selected_button");
+  });
+  $('#only_provinces').click(function(){
+    $("#country_container").hide();
+    $("#province_container").show();
+    $("#only_provinces").addClass("selected_button");
+    $("#whole_country").removeClass("selected_button");
   });
 
 });
