@@ -91,6 +91,34 @@
   background-color: #60a300;
 }
 #esi-vis .selected_button {
-  background-color: #4D8200
-;
+  background-color: #4D8200;
+}
+/* Legend */
+#esi-vis #legend {
+  background-color: #FFF;
+  margin: 10px;
+  padding: 5px;
+}
+#esi-vis #legend p {
+  font-weight: bold;
+  margin-top: 3px;
+}
+#esi-vis #legend div {
+  clear: both;
+  margin: 3px 0;
+}
+#esi-vis #legend {
+  padding: 15px 0 15px 15px;
+}
+#esi-vis #legend p {
+  margin-bottom: 5px;
+}  
+#esi-vis #legend .color {
+  height: 12px;
+  width: 12px;
+  margin-right: 3px;
+  float: left;
+  margin-top: 2px;
+  display: block;
+  border: 1px solid #ccc;
 }

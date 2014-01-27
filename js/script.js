@@ -188,6 +188,7 @@ var yleApp = {
       var styledMap = new google.maps.StyledMapType(styles, {name: 'Styled Map'});
       map.mapTypes.set('map-style', styledMap);
       map.setMapTypeId('map-style');
+      yleApp.updateLegend();
     }
 
   },
@@ -316,6 +317,37 @@ var yleApp = {
       }
     });
     return color;
+  },
+  updateLegend: function() {
+    var legendWrapper = $('#legendWrapper');
+    yleApp.legendContent(legendWrapper);
+  },
+  legendContent: function(legendWrapper) {
+    $('#legend').empty();
+    var legend = $('#legend');
+    legend.id = 'legend';
+
+    $(legend).append('<p>Kuntien väri raja-arvot:</p>');
+
+    $.each(colors['total'].buckets, function(i, bucket) {
+
+      var legendItem = document.createElement('div');
+
+      var color = document.createElement('span');
+      color.setAttribute('class', 'color');
+      color.style.backgroundColor = bucket.color;
+      $(legend).append(color);
+
+      $(legend).append(bucket.min);
+      if (bucket.max == 999) {
+        $(legend).append(' >');
+      } else {
+        $(legend).append(' - '+bucket.max+'<br/>');
+      }
+      
+    });
+
+    $(legendWrapper).append(legend);
   }
 }
 
