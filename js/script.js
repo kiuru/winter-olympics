@@ -3,6 +3,8 @@ var tooltip = $('#esi-vis .tooltip');
 var rawData = [];
 var individualSportData = [];
 var teamSportData = [];
+var sport_type = 'individual';
+var is_whole_country = true;
 /* This array describes the data fetched from Fusion Tables */
 var colors = {};
 var colors_individual = {
@@ -352,6 +354,7 @@ var yleApp = {
 }
 
 $(document).ready(function() {
+  $("#team_country_container").hide();
   $("#province_container").hide();
   $("#country_container").show();
   yleApp.getScale();
@@ -375,31 +378,67 @@ $(document).ready(function() {
   });
 
   $('#sport_individual').click(function(){
+    sport_type = 'individual';
     colors = colors_individual;
     rawData = individualSportData;
-    $("#selector_is_country").show();
     $("#sport_individual").addClass("selected_button");
     $("#sport_team").removeClass("selected_button");
+    
+    if (is_whole_country && sport_type == 'individual') {
+      $("#team_country_container").hide();
+      $("#individual_country_container").show();
+    } else if (is_whole_country && sport_type == 'team') {
+      $("#individual_country_container").hide();
+      $("#team_country_container").show();
+    }
   });
+
   $('#sport_team').click(function(){
+    sport_type = 'team';
     colors = colors_team;
     rawData = teamSportData;
-    $("#selector_is_country").hide();
     $("#sport_team").addClass("selected_button");
     $("#sport_individual").removeClass("selected_button");
+
+    if (is_whole_country && sport_type == 'individual') {
+      $("#team_country_container").hide();
+      $("#individual_country_container").show();
+    } else if (is_whole_country && sport_type == 'team') {
+      $("#individual_country_container").hide();
+      $("#team_country_container").show();
+    }
   });
 
   $('#whole_country').click(function(){
+    is_whole_country = true;
     $("#province_container").hide();
-    $("#country_container").show();
     $("#whole_country").addClass("selected_button");
     $("#only_provinces").removeClass("selected_button");
+
+    if (sport_type == 'individual') {
+      $("#team_country_container").hide();
+      $("#individual_country_container").show();
+    } else {
+      $("#individual_country_container").hide();
+      $("#team_country_container").show();
+    }
   });
+
   $('#only_provinces').click(function(){
-    $("#country_container").hide();
+    is_whole_country = false;
+    $("#individual_country_container").hide();
+    $("#team_country_container").hide();
     $("#province_container").show();
     $("#only_provinces").addClass("selected_button");
     $("#whole_country").removeClass("selected_button");
+
+    if (is_whole_country && sport_type == 'individual') {
+      $("#team_country_container").hide();
+      $("#individual_country_container").show();
+    } else if (is_whole_country && sport_type == 'team') {
+      $("#individual_country_container").hide();
+      $("#team_country_container").show();
+    }
   });
 
 });
