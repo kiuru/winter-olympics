@@ -384,13 +384,7 @@ $(document).ready(function() {
     $("#sport_individual").addClass("selected_button");
     $("#sport_team").removeClass("selected_button");
     
-    if (is_whole_country && sport_type == 'individual') {
-      $("#team_country_container").hide();
-      $("#individual_country_container").show();
-    } else if (is_whole_country && sport_type == 'team') {
-      $("#individual_country_container").hide();
-      $("#team_country_container").show();
-    }
+    active_total_stats_table();
   });
 
   $('#sport_team').click(function(){
@@ -400,13 +394,7 @@ $(document).ready(function() {
     $("#sport_team").addClass("selected_button");
     $("#sport_individual").removeClass("selected_button");
 
-    if (is_whole_country && sport_type == 'individual') {
-      $("#team_country_container").hide();
-      $("#individual_country_container").show();
-    } else if (is_whole_country && sport_type == 'team') {
-      $("#individual_country_container").hide();
-      $("#team_country_container").show();
-    }
+    active_total_stats_table();
   });
 
   $('#whole_country').click(function(){
@@ -415,13 +403,7 @@ $(document).ready(function() {
     $("#whole_country").addClass("selected_button");
     $("#only_provinces").removeClass("selected_button");
 
-    if (sport_type == 'individual') {
-      $("#team_country_container").hide();
-      $("#individual_country_container").show();
-    } else {
-      $("#individual_country_container").hide();
-      $("#team_country_container").show();
-    }
+    active_total_stats_table();
   });
 
   $('#only_provinces').click(function(){
@@ -432,6 +414,10 @@ $(document).ready(function() {
     $("#only_provinces").addClass("selected_button");
     $("#whole_country").removeClass("selected_button");
 
+    active_total_stats_table();
+  });
+
+  function active_total_stats_table() {
     if (is_whole_country && sport_type == 'individual') {
       $("#team_country_container").hide();
       $("#individual_country_container").show();
@@ -439,6 +425,5 @@ $(document).ready(function() {
       $("#individual_country_container").hide();
       $("#team_country_container").show();
     }
-  });
-
+  }
 });
