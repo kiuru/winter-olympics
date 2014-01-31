@@ -261,19 +261,20 @@ var yleApp = {
         } else {
           medals_table[rawData[i].kotikunta] = {};
           medals_table[rawData[i].kotikunta].kotikunta = rawData[i].kotikunta
+          medals_table[rawData[i].kotikunta].maakunta = rawData[i].maakunta
           medals_table[rawData[i].kotikunta].medals = 1;
         }
 
       }
 
     }
-
     var tmp_table = [];
     var i = 0;
     for (var value in medals_table) {
       tmp_table[i] = {};
       tmp_table[i].medals = medals_table[value].medals;
       tmp_table[i].kotikunta = medals_table[value].kotikunta;
+      tmp_table[i].maakunta = medals_table[value].maakunta;
       i++;
     }
 
@@ -282,7 +283,7 @@ var yleApp = {
     var count_medals = 0;
     for (var value in tmp_table) {
       $('#esi-vis #province').html(click);
-      $('#esi-vis #medals_table tbody').append('<tr><td>'+tmp_table[value].kotikunta+'</td><td>'+tmp_table[value].medals+'</td></tr>');
+      $('#esi-vis #medals_table tbody').append("<tr onclick='yleApp.getCityTable(\""+tmp_table[value].maakunta+"\", \""+tmp_table[value].kotikunta+"\");'><td>"+tmp_table[value].kotikunta+"</td><td>"+tmp_table[value].medals+"</td></tr>");
       count_medals += tmp_table[value].medals;
     }
     $('#esi-vis #medals_table tbody').append('<tr><td><strong>Yhteensä</strong></td><td><strong>'+count_medals+'</strong></td></tr>');
@@ -350,6 +351,33 @@ var yleApp = {
     });
 
     $(legendWrapper).append(legend);
+  },
+  getCityTable: function(province, city) {
+    /*for (var i in rawData) {
+
+      if (rawData[i].maakunta == province && rawData[i].kotikunta == city) {
+
+        if (typeof medals_table[rawData[i].kotikunta] !== "undefined" && medals_table[rawData[i].kotikunta] !== null) {
+          medals_table[rawData[i].kotikunta].medals += 1;
+        } else {
+          medals_table[rawData[i].kotikunta] = {};
+          medals_table[rawData[i].kotikunta].kotikunta = rawData[i].kotikunta
+          medals_table[rawData[i].kotikunta].medals = 1;
+        }
+
+      }
+
+    }*/
+
+  },
+  active_total_stats_table: function() {
+    if (is_whole_country && sport_type == 'individual') {
+      $("#team_country_container").hide();
+      $("#individual_country_container").show();
+    } else if (is_whole_country && sport_type == 'team') {
+      $("#individual_country_container").hide();
+      $("#team_country_container").show();
+    }
   }
 }
 
@@ -384,7 +412,7 @@ $(document).ready(function() {
     $("#sport_individual").addClass("selected_button");
     $("#sport_team").removeClass("selected_button");
     
-    active_total_stats_table();
+    yleApp.active_total_stats_table();
   });
 
   $('#sport_team').click(function(){
@@ -394,7 +422,7 @@ $(document).ready(function() {
     $("#sport_team").addClass("selected_button");
     $("#sport_individual").removeClass("selected_button");
 
-    active_total_stats_table();
+    yleApp.active_total_stats_table();
   });
 
   $('#whole_country').click(function(){
@@ -403,7 +431,7 @@ $(document).ready(function() {
     $("#whole_country").addClass("selected_button");
     $("#only_provinces").removeClass("selected_button");
 
-    active_total_stats_table();
+    yleApp.active_total_stats_table();
   });
 
   $('#only_provinces').click(function(){
@@ -414,16 +442,7 @@ $(document).ready(function() {
     $("#only_provinces").addClass("selected_button");
     $("#whole_country").removeClass("selected_button");
 
-    active_total_stats_table();
+    yleApp.active_total_stats_table();
   });
 
-  function active_total_stats_table() {
-    if (is_whole_country && sport_type == 'individual') {
-      $("#team_country_container").hide();
-      $("#individual_country_container").show();
-    } else if (is_whole_country && sport_type == 'team') {
-      $("#individual_country_container").hide();
-      $("#team_country_container").show();
-    }
-  }
 });
