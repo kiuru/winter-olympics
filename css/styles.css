@@ -93,6 +93,9 @@
 #esi-vis .selected_button {
   background-color: #4D8200;
 }
+#esi-vis #city-view button {
+  background-color: #00b4c8;
+}
 /* Legend */
 #esi-vis #legend {
   background-color: #FFF;

@@ -248,9 +248,14 @@ var yleApp = {
     }
 
   },
+  clickOverGoogleMapListener: function(province) {
+    $('#only_provinces').click();
+    yleApp.mapClickAction(province);
+  },
   mapClickAction: function(click) {
     $('#esi-vis #medals_table tbody').empty();
-
+    $('#esi-vis #province').html(click);
+    
     var medals_table = [];
     for (var i in rawData) {
 
@@ -282,7 +287,6 @@ var yleApp = {
 
     var count_medals = 0;
     for (var value in tmp_table) {
-      $('#esi-vis #province').html(click);
       $('#esi-vis #medals_table tbody').append("<tr onclick='yleApp.getCityTable(\""+tmp_table[value].maakunta+"\", \""+tmp_table[value].kotikunta+"\");'><td>"+tmp_table[value].kotikunta+"</td><td>"+tmp_table[value].medals+"</td></tr>");
       count_medals += tmp_table[value].medals;
     }
@@ -353,22 +357,20 @@ var yleApp = {
     $(legendWrapper).append(legend);
   },
   getCityTable: function(province, city) {
-    /*for (var i in rawData) {
+    $('#esi-vis #basic-view').hide();
+    $('#esi-vis #city-view').show();
+    $('#esi-vis #city-view tbody').empty();
+    $('#esi-vis #city-view #city-header').html(city);
 
+    for (var i in rawData) {
       if (rawData[i].maakunta == province && rawData[i].kotikunta == city) {
-
-        if (typeof medals_table[rawData[i].kotikunta] !== "undefined" && medals_table[rawData[i].kotikunta] !== null) {
-          medals_table[rawData[i].kotikunta].medals += 1;
-        } else {
-          medals_table[rawData[i].kotikunta] = {};
-          medals_table[rawData[i].kotikunta].kotikunta = rawData[i].kotikunta
-          medals_table[rawData[i].kotikunta].medals = 1;
-        }
-
+        $('#esi-vis #city-view tbody').append("<tr><td>"+rawData[i].kisapaikka+" - "+rawData[i].vuosi+"</td><td>"+rawData[i].mitali+"</td><td>"+rawData[i].laji+"</td><td>"+rawData[i].urheilija+"</td></tr>");
       }
-
-    }*/
-
+    }
+  },
+  backToBasicView: function() {
+    $('#esi-vis #city-view').hide();
+    $('#esi-vis #basic-view').show();
   },
   active_total_stats_table: function() {
     if (is_whole_country && sport_type == 'individual') {
@@ -382,6 +384,7 @@ var yleApp = {
 }
 
 $(document).ready(function() {
+  $('#esi-vis #city-view').hide();
   $("#team_country_container").hide();
   $("#province_container").hide();
   $("#country_container").show();
