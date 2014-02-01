@@ -364,7 +364,12 @@ var yleApp = {
 
     for (var i in rawData) {
       if (rawData[i].maakunta == province && rawData[i].kotikunta == city) {
-        $('#esi-vis #city-view tbody').append("<tr><td>"+rawData[i].kisapaikka+" - "+rawData[i].vuosi+"</td><td>"+rawData[i].mitali+"</td><td>"+rawData[i].laji+"</td><td>"+rawData[i].urheilija+"</td></tr>");
+        if (rawData[i].kilpailu == "NULL") {
+          sport = rawData[i].laji
+        } else {
+          sport = rawData[i].kilpailu
+        }
+        $('#esi-vis #city-view tbody').append("<tr><td>"+rawData[i].kisapaikka+" - "+rawData[i].vuosi+"</td><td>"+rawData[i].mitali+"</td><td>"+sport+"</td><td>"+rawData[i].urheilija+"</td></tr>");
       }
     }
   },
