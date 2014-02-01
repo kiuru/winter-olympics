@@ -334,7 +334,7 @@ var yleApp = {
     var legend = $('#legend');
     legend.id = 'legend';
 
-    $(legend).append('<p>Kuntien väri raja-arvot:</p>');
+    $(legend).append('<p>Maakuntien mitalit:</p>');
 
     $.each(colors['total'].buckets, function(i, bucket) {
 
