@@ -19,7 +19,7 @@ Calgary;1988;Hopeaa;Jääkiekko;NULL;Pekka Tuomisto;Oulu;Pohjois-Pohjanmaa;NULL
 Calgary;1988;Hopeaa;Jääkiekko;NULL;Esa Keskinen;Ylöjärvi;Pirkanmaa;NULL
 Calgary;1988;Hopeaa;Jääkiekko;NULL;Raimo Helminen;Tampere;Pirkanmaa;NULL
 Calgary;1988;Hopeaa;Jääkiekko;NULL;Janne Ojanen;Tampere;Pirkanmaa;NULL
-Calgary;1988;Hopeaa;Jääkiekko;NULL;Kari Laitinen;Vantaa (Helsingin maalaiskunta);Uusimaa;NULL
+Calgary;1988;Hopeaa;Jääkiekko;NULL;Kari Laitinen;Vantaa;Uusimaa;NULL
 Calgary;1988;Hopeaa;Jääkiekko;NULL;Simo Saarinen;Helsinki;Uusimaa;NULL
 Lillehammer;1994;Pronssia;Jääkiekko;NULL;Jarmo Myllys;Savonlinna;Etelä-Savo;NULL
 Lillehammer;1994;Pronssia;Jääkiekko;NULL;Erik Hämäläinen;Rauma;Satakunta;NULL
@@ -30,7 +30,7 @@ Lillehammer;1994;Pronssia;Jääkiekko;NULL;Petri Varis;Varkaus;Pohjois-Savo;NULL
 Lillehammer;1994;Pronssia;Jääkiekko;NULL;Jukka Tammi;Tampere;Pirkanmaa;NULL
 Lillehammer;1994;Pronssia;Jääkiekko;NULL;Timo Jutila;Tampere;Pirkanmaa;NULL
 Lillehammer;1994;Pronssia;Jääkiekko;NULL;Mika Strömberg;Helsinki;Uusimaa;NULL
-Lillehammer;1994;Pronssia;Jääkiekko;NULL;Marko Palo;Jyväskylä (Jyväskylän maalaiskunta);Keski-Suomi;NULL
+Lillehammer;1994;Pronssia;Jääkiekko;NULL;Marko Palo;Jyväskylä;Keski-Suomi;NULL
 Lillehammer;1994;Pronssia;Jääkiekko;NULL;Jere Lehtinen;Espoo;Uusimaa;NULL
 Lillehammer;1994;Pronssia;Jääkiekko;NULL;Mika Nieminen;Tampere;Pirkanmaa;NULL
 Lillehammer;1994;Pronssia;Jääkiekko;NULL;Marko Kiprusoff;Turku;Varsinais-Suomi;NULL
@@ -49,7 +49,7 @@ Nagano;1998;Pronssia;Jääkiekko;NULL;Tuomas Grönman;Viitasaari;Keski-Suomi;NUL
 Nagano;1998;Pronssia;Jääkiekko;NULL;Janne Niinimaa;Raahe;Pohjois-Pohjanmaa;NULL
 Nagano;1998;Pronssia;Jääkiekko;NULL;Raimo Helminen;Tampere;Pirkanmaa;NULL
 Nagano;1998;Pronssia;Jääkiekko;NULL;Jere Lehtinen;Espoo;Uusimaa;NULL
-Nagano;1998;Pronssia;Jääkiekko;NULL;Kimmo Rintanen;Rauma (Rauman maalaiskunta);Satakunta;NULL
+Nagano;1998;Pronssia;Jääkiekko;NULL;Kimmo Rintanen;Rauma;Satakunta;NULL
 Nagano;1998;Pronssia;Jääkiekko;NULL;Antti Törmänen;Espoo;Uusimaa;NULL
 Nagano;1998;Pronssia;Jääkiekko;NULL;Ari Sulander;Helsinki;Uusimaa;NULL
 Nagano;1998;Pronssia;Jääkiekko;NULL;Janne Laukkanen;Lahti;Päijät-Häme;NULL
@@ -91,25 +91,25 @@ Torino;2006;Hopeaa;Jääkiekko;NULL;Aki Berg;Raisio;Varsinais-Suomi;NULL
 Torino;2006;Hopeaa;Jääkiekko;NULL;Teppo Numminen;Tampere;Pirkanmaa;NULL
 Torino;2006;Hopeaa;Jääkiekko;NULL;Olli Jokinen;Kuopio;Pohjois-Savo;NULL
 Torino;2006;Hopeaa;Jääkiekko;NULL;Jarkko Ruutu;Vantaa;Uusimaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Fredrik Norrena;Pietarsaari;Pohjanmaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Lasse Kukkonen;Oulu;Pohjois-Pohjanmaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Petteri Nummelin;Turku;Varsinais-Suomi;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Niklas Hagman;Espoo;Uusimaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Niko Kapanen;Hattula;Kanta-Häme;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Jere Lehtinen;Espoo;Uusimaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Teemu Selänne;Helsinki;Uusimaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Niklas Bäckström;Helsinki;Uusimaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Toni Lydman;Lahti;Päijät-Häme;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Sami Salo;Turku;Varsinais-Suomi;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Jukka Hentunen;Joroinen;Etelä-Savo;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Mikko Koivu;Turku;Varsinais-Suomi;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Ville Nieminen;Tampere;Pirkanmaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Antti-Jussi Niemi;Vantaa;Uusimaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Kimmo Timonen;Kuopio;Pohjois-Savo;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Jussi Jokinen;Kalajoki;Pohjois-Pohjanmaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Saku Koivu;Turku;Varsinais-Suomi;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Ville Peltonen;Vantaa;Uusimaa;NULL
-Torino;2006;Hopeaa;Jääkiekko;NULL; Antti Laaksonen;Tammela;Kanta-Häme;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Fredrik Norrena;Pietarsaari;Pohjanmaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Lasse Kukkonen;Oulu;Pohjois-Pohjanmaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Petteri Nummelin;Turku;Varsinais-Suomi;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Niklas Hagman;Espoo;Uusimaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Niko Kapanen;Hattula;Kanta-Häme;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Jere Lehtinen;Espoo;Uusimaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Teemu Selänne;Helsinki;Uusimaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Niklas Bäckström;Helsinki;Uusimaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Toni Lydman;Lahti;Päijät-Häme;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Sami Salo;Turku;Varsinais-Suomi;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Jukka Hentunen;Joroinen;Etelä-Savo;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Mikko Koivu;Turku;Varsinais-Suomi;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Ville Nieminen;Tampere;Pirkanmaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Antti-Jussi Niemi;Vantaa;Uusimaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Kimmo Timonen;Kuopio;Pohjois-Savo;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Jussi Jokinen;Kalajoki;Pohjois-Pohjanmaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Saku Koivu;Turku;Varsinais-Suomi;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Ville Peltonen;Vantaa;Uusimaa;NULL
+Torino;2006;Hopeaa;Jääkiekko;NULL;Antti Laaksonen;Tammela;Kanta-Häme;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Miikka Kiprusoff;Turku;Varsinais-Suomi;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Kukkonen;Oulu;Pohjois-Pohjanmaa;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Pitkänen;Oulu;Pohjois-Pohjanmaa;NULL
@@ -117,43 +117,43 @@ Vancouver;2010;Pronssia;Jääkiekko;NULL;Mikko Koivu;Turku;Varsinais-Suomi;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Tuomo Ruutu;Vantaa;Uusimaa;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Jarkko Ruutu;Vantaa;Uusimaa;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Immonen;Rantasalmi;Etelä-Savo;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Niklas Bäckström;Helsinki;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Sami Salo;Turku;Varsinais-Suomi;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Toni Lydman;Lahti;Päijät-Häme;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Niklas Hagman;Espoo;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Ville Peltonen;Vantaa;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Niko Kapanen;Hattula;Kanta-Häme;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Antero Niittymäki;Turku;Varsinais-Suomi;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Sami Lepistö;Espoo;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Kimmo Timonen;Kuopio;Pohjois-Savo;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Saku Koivu;Turku;Varsinais-Suomi;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Antti Miettinen;Hattula;Kanta-Häme;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Valtteri Filppula;Vantaa;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Janne Niskala;Västerås;Ruotsi;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Teemu Selänne;Helsinki;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Olli Jokinen;Kuopio;Pohjois-Savo;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Jere Lehtinen;Espoo;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Niklas Bäckström;Helsinki;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Sami Salo;Turku;Varsinais-Suomi;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Toni Lydman;Lahti;Päijät-Häme;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Niklas Hagman;Espoo;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Ville Peltonen;Vantaa;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Niko Kapanen;Hattula;Kanta-Häme;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Antero Niittymäki;Turku;Varsinais-Suomi;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Sami Lepistö;Espoo;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Kimmo Timonen;Kuopio;Pohjois-Savo;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Saku Koivu;Turku;Varsinais-Suomi;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Antti Miettinen;Hattula;Kanta-Häme;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Valtteri Filppula;Vantaa;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Janne Niskala;Västerås;Ruotsi;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Teemu Selänne;Helsinki;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Olli Jokinen;Kuopio;Pohjois-Savo;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Jere Lehtinen;Espoo;Uusimaa;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Noora Räty;Espoo;Uusimaa;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Emma Laaksonen;Washington;Yhdysvallat;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Terhi Mertanen;Joensuu;Pohjois-Karjala;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Venla Hovi;Tampere;Pirkanmaa;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Minnamari Tuominen;Helsinki;Uusimaa;NULL
 Vancouver;2010;Pronssia;Jääkiekko;NULL;Nina Tikkinen;Salo;Varsinais-Suomi;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Mira Kuisma;Kuopio;Pohjois-Savo;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Rosa Lindstedt;Ylöjärvi;Pirkanmaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Saija Sirviö;Oulu;Pohjois-Pohjanmaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Annina Rajahuhta;Helsinki;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Michelle Karvinen;Rødovre;Tanska;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Anne Helin;Helsinki;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Anna Vanhatalo;Helsinki;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Mariia Posa;Hyvinkää;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Heidi Pelttari;Tampere;Pirkanmaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Mari Saarinen;Kangasala;Pirkanmaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Saara Tuominen;Ylöjärvi;Pirkanmaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Karoliina Rantamäki;Espoo;Uusimaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Jenni Hiirikoski;Lempäälä;Pirkanmaa;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Marjo Voutilainen;Kuopio;Pohjois-Savo;NULL
-Vancouver;2010;Pronssia;Jääkiekko;NULL; Linda Välimäki;Ylöjärvi;Pirkanmaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Mira Kuisma;Kuopio;Pohjois-Savo;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Rosa Lindstedt;Ylöjärvi;Pirkanmaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Saija Sirviö;Oulu;Pohjois-Pohjanmaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Annina Rajahuhta;Helsinki;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Michelle Karvinen;Rødovre;Tanska;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Anne Helin;Helsinki;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Anna Vanhatalo;Helsinki;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Mariia Posa;Hyvinkää;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Heidi Pelttari;Tampere;Pirkanmaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Mari Saarinen;Kangasala;Pirkanmaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Saara Tuominen;Ylöjärvi;Pirkanmaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Karoliina Rantamäki;Espoo;Uusimaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Jenni Hiirikoski;Lempäälä;Pirkanmaa;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Marjo Voutilainen;Kuopio;Pohjois-Savo;NULL
+Vancouver;2010;Pronssia;Jääkiekko;NULL;Linda Välimäki;Ylöjärvi;Pirkanmaa;NULL
 Torino;2006;Hopeaa;Curling;NULL;Markku Uusipaavalniemi;Karkkila;Uusimaa;NULL
 Torino;2006;Hopeaa;Curling;NULL;Teemu Salo;Hyvinkää;Uusimaa;NULL
 Torino;2006;Hopeaa;Curling;NULL;Kalle Kiiskinen;Hyvinkää;Uusimaa;NULL
