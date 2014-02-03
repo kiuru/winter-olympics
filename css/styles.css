@@ -48,9 +48,8 @@
 .article #container > .content > .text #esi-vis thead tr:hover {
   background-color: #fff;
 }
-.article #container > .content > .text #esi-vis tbody tr {
-  height:100%;
-  width:100%;
+.article #container > .content > .text #esi-vis tbody tr:hover {
+  background-color: #00b4c8;
 }
 .article #container > .content > .text #esi-vis thead th,
 .article #container > .content > .text #esi-vis tbody td {
