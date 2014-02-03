@@ -37,12 +37,6 @@
 #esi-vis .table th {
   padding: 0 3px;
 }
-#esi-vis .search_container {
-  margin-bottom: 10px;
-}
-#esi-vis .search {
-  width: 200px;
-}
 .article #container > .content > .text #esi-vis th,
 .article #container > .content > .text #esi-vis tbody {
   border: 0;
@@ -50,18 +44,22 @@
 .article #container > .content > .text #esi-vis tbody tr:nth-child(odd) {
   background-color: #f1f1f1;
 }
-.article #container > .content > .text #esi-vis thead tr,
-.article #container > .content > .text #esi-vis thead tr:hover,
-.article #container > .content > .text #esi-vis tbody tr:nth-child(even) {
+.article #container > .content > .text #esi-vis tbody tr:nth-child(even),
+.article #container > .content > .text #esi-vis thead tr:hover {
   background-color: #fff;
+}
+.article #container > .content > .text #esi-vis tbody tr {
+  height:100%;
+  width:100%;
 }
 .article #container > .content > .text #esi-vis thead th,
 .article #container > .content > .text #esi-vis tbody td {
   border: 0;
   padding: 6px 4px 6px 3px;
-}
-.article #container > .content > .text #esi-vis tbody td {
   vertical-align: middle;
+}
+.article #container > .content > .text #esi-vis a {
+  color: #000000;
 }
 /* Button */
 #esi-vis button {

@@ -287,7 +287,7 @@ var yleApp = {
 
     var count_medals = 0;
     for (var value in tmp_table) {
-      $('#esi-vis #medals_table tbody').append("<tr onclick='yleApp.getCityTable(\""+tmp_table[value].maakunta+"\", \""+tmp_table[value].kotikunta+"\");'><td>"+tmp_table[value].kotikunta+"</td><td>"+tmp_table[value].medals+"</td></tr>");
+      $('#esi-vis #medals_table tbody').append("<tr onclick='yleApp.getCityTable(\""+tmp_table[value].maakunta+"\", \""+tmp_table[value].kotikunta+"\");'><td><a href=\"#\">"+tmp_table[value].kotikunta+"</a></td><td>"+tmp_table[value].medals+"</td></tr>");
       count_medals += tmp_table[value].medals;
     }
     $('#esi-vis #medals_table tbody').append('<tr><td><strong>Yhteensä</strong></td><td><strong>'+count_medals+'</strong></td></tr>');
